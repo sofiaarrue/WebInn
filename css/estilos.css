@@ -1,0 +1,36 @@
+.elipse {
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    background: rgba(244, 241, 187, 0.8);
+    border-radius: 100%;
+}
+
+.info {
+    align-items: center;
+}
+
+.texto-elipse {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+    display: flex;
+    text-align: center;
+    color: #18C5D7;
+
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 60px;
+    background: rgba(244, 241, 187, 0.8);
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
