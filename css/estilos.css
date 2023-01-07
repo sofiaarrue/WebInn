@@ -74,21 +74,25 @@ margin: auto;
     background: 0;
 }
 
+.fondo{
+    background-color:#B2926D;
+}
+
 .box {
     width: 100%;
-    height: 300px;
-    overflow-y: clip;
-    overflow-clip-margin: 20px;
-    background-color: #B2926D;
+    height: 350px;
+    overflow: visible !important;
 }
 
 .ubicacion img{
     height: auto;
     max-width: auto ;
     vertical-align: middle;
+
 }
 
 .textomapa {
-    vertical-align: center;
+    text-align: center;
+    margin: auto;
 }
 
