@@ -48,10 +48,9 @@ h2{
     color: #B2926D;
 }
 
-.imggaleria {
-    border-style: none;
-    vertical-align: middle;
+.galeria img {
     width: 450px;
     height: 350px;
-    
+    display: block;
+    margin: auto;
 }
