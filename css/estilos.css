@@ -74,11 +74,21 @@ margin: auto;
     background: 0;
 }
 
-.ubicacion {
-    background-color: #F4F1BB;
+.box {
+    width: 100%;
+    height: 300px;
+    overflow-y: clip;
+    overflow-clip-margin: 20px;
+    background-color: #B2926D;
 }
 
 .ubicacion img{
-    height: 400px;
-    width: 600px ;
+    height: auto;
+    max-width: auto ;
+    vertical-align: middle;
 }
+
+.textomapa {
+    vertical-align: center;
+}
+
