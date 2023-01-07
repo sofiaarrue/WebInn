@@ -49,8 +49,27 @@ h2{
 }
 
 .galeria img {
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 350px;
     display: block;
     margin: auto;
+}
+
+.flechas{
+width: max-content;
+margin: auto;
+}
+
+.flechas i{
+    font-size: 35px;
+    width: 58px;
+    height: 48px; 
+    color: #FEC924;
+    text-align: center;
+    margin: 0px;
+}
+
+.flechas button {
+    border: 0;
+    background: 0;
 }
