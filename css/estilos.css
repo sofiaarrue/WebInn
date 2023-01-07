@@ -48,7 +48,7 @@ h2{
     color: #B2926D;
 }
 
-.galeria img {
+#galeria img {
     width: 450px;
     height: 350px;
     display: block;
@@ -72,4 +72,13 @@ margin: auto;
 .flechas button {
     border: 0;
     background: 0;
+}
+
+.ubicacion {
+    background-color: #F4F1BB;
+}
+
+.ubicacion img{
+    height: 400px;
+    width: 600px ;
 }
