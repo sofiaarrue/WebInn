@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.texto-elipse {
+.intro__elipse-texto {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -91,7 +91,7 @@ margin: auto;
 
 }
 
-.textomapa {
+.fondo__textomapa {
     text-align: center;
     margin: auto;
 }
