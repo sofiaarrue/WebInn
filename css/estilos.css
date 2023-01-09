@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .elipse {
     width: 350px;
     height: 350px;
@@ -108,11 +112,26 @@ margin: auto;
     background-color: #F5F5F5;
 }
 
-.mas-sobre-nosotros__img {
+.mas-sobre-nosotros__button-container-img {
+    max-width: 100%;
     height: auto;
-    width: ;
     vertical-align: middle;
-    padding: 10px;
     border-radius: 100px;
+}
+
+.mas-sobre-nosotros__button-container {
+    display: flex;
+    position: relative;
+}
+
+.mas-sobre-nosotros__button-container-a {
+    position: absolute;
+    width: 10em;
+    right: 6.5em;
+    bottom: -1em;
+    background-color: #FEC924;
+    border-radius: 1.5em;
+    color: white;
+    padding: 1em 1.5em;
 }
 
