@@ -75,24 +75,33 @@ margin: auto;
 }
 
 .fondo{
-    background-color:#B2926D;
+    background-color:#F4F1BB;
 }
 
 .box {
     width: 100%;
     height: 350px;
-    overflow: visible !important;
+    overflow: clip;
 }
 
-.ubicacion img{
-    height: auto;
+.ubicacion__img{
+    height: 350px;
     max-width: auto ;
     vertical-align: middle;
 
 }
 
-.fondo__textomapa {
+.ubicacion__textomapa {
     text-align: center;
     margin: auto;
+}
+
+.ubicacion__button {
+    background: #5DC1B9;
+    border-radius: 20px;
+    color: white;
+    line-height: 2;
+    width: 200px;
+    border: none;
 }
 
