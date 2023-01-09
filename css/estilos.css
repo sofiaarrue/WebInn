@@ -74,11 +74,11 @@ margin: auto;
     background: 0;
 }
 
-.fondo{
+.ubicacion__fondo{
     background-color:#F4F1BB;
 }
 
-.box {
+.ubicacion__box {
     width: 100%;
     height: 350px;
     overflow: clip;
@@ -88,7 +88,6 @@ margin: auto;
     height: 350px;
     max-width: auto ;
     vertical-align: middle;
-
 }
 
 .ubicacion__textomapa {
@@ -103,5 +102,17 @@ margin: auto;
     line-height: 2;
     width: 200px;
     border: none;
+}
+
+.mas-sobre-nosotros__fondo {
+    background-color: #F5F5F5;
+}
+
+.mas-sobre-nosotros__img {
+    height: auto;
+    width: ;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 100px;
 }
 
