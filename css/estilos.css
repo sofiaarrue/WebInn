@@ -147,7 +147,13 @@ h2 {
     margin: auto;
 }
 
-.footer__box-i {
+.footer__box-i1 {
     font-size: 25px;
     color: #D4A373;
+}
+
+.footer__box-i2 {
+    font-size: 30px;
+    color: #8AE0DB;
+    opacity: .6;
 }
