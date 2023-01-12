@@ -2,11 +2,10 @@
     box-sizing: border-box;
 }
 
-.navbar-nav{
-    align-items: center;
+.right-nav{
+    justify-content: space-between;
+    position: relative;
     margin: auto;
-    vertical-align: middle;
-
 }
 
 .elipse {
