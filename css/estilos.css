@@ -119,9 +119,7 @@ h2 {
 }
 
 .ubicacion__box {
-    width: 100%;
     height: 350px;
-    overflow: clip;
 }
 
 .ubicacion__img {
@@ -169,6 +167,8 @@ h2 {
     border-radius: 1.5em;
     color: white;
     padding: 1em 1.5em;
+    margin: -125px auto 0 auto;
+
 }
 
 #newsletter {
