@@ -166,8 +166,8 @@ h2 {
     background-color: #FEC924;
     border-radius: 1.5em;
     color: white;
-    padding: 1em 1.5em;
     margin: -125px auto 0 auto;
+    z-index: 1;
 
 }
 
