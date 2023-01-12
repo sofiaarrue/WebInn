@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.navbar-nav{
+    align-items: center;
+    margin: auto;
+    vertical-align: middle;
+
+}
+
 .elipse {
     width: 350px;
     height: 350px;
