@@ -159,7 +159,7 @@ h2 {
 }
 
 .mas-sobre-nosotros__button-container-a {
-    position: absolute;
+    position: relative;
     width: 10em;
     right: 6.5em;
     bottom: -1em;
