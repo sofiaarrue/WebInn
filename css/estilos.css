@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 .right-nav {
@@ -45,7 +46,7 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 47px;
     /* identical to box height */
 
@@ -57,7 +58,7 @@
 
 }
 
-.servicios {
+.descripcion__i {
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -68,9 +69,23 @@
     margin: auto;
 }
 
+.descripcion__p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #877560;
+}
+
+.descripcion__i i {
+    color: #18C5D7;
+}
+
 h2 {
     text-align: center;
     color: #B2926D;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
 }
 
 #galeria img {
