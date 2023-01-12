@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.nav-item{
+    padding: 10px;
+}
+
 .elipse {
     width: 350px;
     height: 350px;
