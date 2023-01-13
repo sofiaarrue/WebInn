@@ -154,8 +154,13 @@ h2 {
 }
 
 .mas-sobre-nosotros__button-container {
-    display: flex;
+    display: inline-block;
     position: relative;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    flex: 0 0 auto;
 }
 
 .mas-sobre-nosotros__button-container-a {
@@ -166,7 +171,7 @@ h2 {
     background-color: #FEC924;
     border-radius: 1.5em;
     color: white;
-    padding: 1em 1.5em;
+    padding: 0;
     margin: auto;
 
 }
