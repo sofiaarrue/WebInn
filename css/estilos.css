@@ -18,7 +18,7 @@ h2 {
     line-height: 47px;
 }
 
-p{
+p {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -217,4 +217,18 @@ p{
     font-size: 30px;
     color: #8AE0DB;
     opacity: .6;
+}
+
+#intro-ubicacion {
+    background-image: url("../imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#intro-ubicacion h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 400px;
+    color: #ffffff;
 }
