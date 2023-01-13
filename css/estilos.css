@@ -239,3 +239,15 @@ p {
     background-color: #FEC924;
     opacity: 0.7;
 }
+
+.ubicacion__mapa{
+    background-color: #F5F5F5;
+}
+
+.ubicacion__mapa-img{
+    border-radius: 10px;
+}
+
+.ubicacion__mapa-img:hover{
+    filter: sepia(60%);
+}
