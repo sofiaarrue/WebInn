@@ -221,9 +221,10 @@ p {
 
 #intro-ubicacion {
     background-image: url("../imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png");
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     margin: 0;
+    width: auto;
 }
 
 #intro-ubicacion h1 {
