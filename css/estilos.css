@@ -220,19 +220,21 @@ p {
     opacity: .6;
 }
 
-#ubicacion-intro {
+.ubicacion-intro__div {
     background-image: url("../imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png");
-    background-size:cover;
     background-repeat: no-repeat;
-    margin: 0;
-    width: auto;
+    background-size: 100% 100%;
+    background-attachment: fixed;  
+    
 }
 
 #ubicacion-intro h1 {
     font-size: 50px;
     font-weight: 600;
-    margin-top: 400px;
     color: #ffffff;
+    position: relative;
+    top: 290px;
+    left: 30px;
 }
 
 .ubicacion__acts-cercanas-fondo{
