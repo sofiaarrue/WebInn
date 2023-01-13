@@ -154,7 +154,7 @@ h2 {
 }
 
 .mas-sobre-nosotros__button-container {
-    display: inline-block;
+    display: inline;
     position: relative;
     width: auto;
     height: auto;
@@ -173,6 +173,7 @@ h2 {
     color: white;
     padding: 0;
     margin: auto;
+    vertical-align: middle;
 
 }
 
