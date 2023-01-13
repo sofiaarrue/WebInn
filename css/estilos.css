@@ -3,6 +3,7 @@ RESOLVER:
     scroll
     cambiar estilo de flechas en galeria
     cambiar posicion del mapa de ubicación
+    cambiar ids y clases (solo tendrá id los bodys)
 */
 
 * {
@@ -232,4 +233,9 @@ p {
     font-weight: 600;
     margin-top: 400px;
     color: #ffffff;
+}
+
+.ubicacion__acts-cercanas-fondo{
+    background-color: #FEC924;
+    opacity: 0.7;
 }
