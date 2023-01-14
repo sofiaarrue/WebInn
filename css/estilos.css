@@ -37,6 +37,10 @@ p {
     padding: 10px;
 }
 
+.telefono:active{
+    color: #18C5D7;
+}
+
 #bienvenidos h1 {
     text-align: center;
     background: linear-gradient(180deg, #B2926D 0%, #000000 100%);
