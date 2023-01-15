@@ -37,8 +37,9 @@ p {
     padding: 10px;
 }
 
-.telefono:active{
+.telefono:hover{
     color: #18C5D7;
+    width: ;
 }
 
 #bienvenidos h1 {
