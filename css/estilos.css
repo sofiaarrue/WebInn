@@ -9,7 +9,6 @@ RESOLVER:
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
 }
 
 h2 {
@@ -27,6 +26,11 @@ p {
     color: #877560;
 }
 
+.navbar {
+    height: fit-content;
+    background-color: #ffffff;
+}
+
 .right-nav {
     justify-content: space-between;
     position: relative;
@@ -37,9 +41,21 @@ p {
     padding: 10px;
 }
 
+.nav-link {
+    font-weight: 500;
+    transition: all 1s;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    color: #18C5D7;
+}
+
 .telefono:hover{
     color: #18C5D7;
-    width: ;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    font-size: 30px;
 }
 
 #bienvenidos h1 {
@@ -107,6 +123,7 @@ p {
     height: 350px;
     display: block;
     margin: auto;
+    object-fit: cover;
 }
 
 .flechas {
@@ -156,29 +173,27 @@ p {
     border: none;
 }
 
-.mas-sobre-nosotros__fondo {
-    background-color: #F5F5F5;
-}
 
 .mas-sobre-nosotros__button-container-img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
     border-radius: 100px;
+    object-fit: cover;
 }
 
 .mas-sobre-nosotros__button-container {
-    display: inline;
-    position: relative;
+    display: flex;
+    position:relative;
     width: auto;
-    height: auto;
     max-width: 100%;
     vertical-align: middle;
     flex: 0 0 auto;
+    max-height: 100%;
 }
 
 .mas-sobre-nosotros__button-container-a {
-    position: absolute;
+    position:absolute;
     width: 10em;
     right: 6.5em;
     bottom: -1em;
@@ -188,7 +203,6 @@ p {
     padding: 10px;
     margin: auto;
     vertical-align: middle;
-
 }
 
 #newsletter {
@@ -258,4 +272,27 @@ p {
 
 .ubicacion__mapa-img:hover{
     filter: sepia(60%);
+}
+
+.caja-galeria{
+    display: flex;
+    height: 250px;
+    flex-wrap: wrap;
+}
+.item{
+    height: 100%;
+    display: block;
+}
+
+.caja-galeria div{
+    flex: 1;
+    display: flex;
+    margin: 4px;
+    min-width: 120px;
+}
+
+.caja-galeria img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
 }
