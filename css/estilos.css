@@ -46,12 +46,12 @@ p {
     transition: all 1s;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     font-weight: 600;
     color: #18C5D7;
 }
 
-.telefono:hover{
+.telefono:hover {
     color: #18C5D7;
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -184,7 +184,7 @@ p {
 
 .mas-sobre-nosotros__button-container {
     display: flex;
-    position:relative;
+    position: relative;
     width: auto;
     max-width: 100%;
     vertical-align: middle;
@@ -193,7 +193,7 @@ p {
 }
 
 .mas-sobre-nosotros__button-container-a {
-    position:absolute;
+    position: absolute;
     width: 10em;
     right: 6.5em;
     bottom: -1em;
@@ -246,8 +246,8 @@ p {
     background-image: url("../imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-attachment: fixed;  
-    
+    background-attachment: fixed;
+
 }
 
 #ubicacion-intro h1 {
@@ -259,54 +259,33 @@ p {
     left: 30px;
 }
 
-.ubicacion__acts-cercanas-fondo{
+.ubicacion__acts-cercanas-fondo {
     background-color: #FEC924;
     opacity: 0.7;
 }
 
-.ubicacion__mapa{
+.ubicacion__mapa {
     background-color: #F5F5F5;
 }
 
-.ubicacion__mapa-img{
+.ubicacion__mapa-img {
     border-radius: 10px;
 }
 
-.ubicacion__mapa-img:hover{
+.ubicacion__mapa-img:hover {
     filter: sepia(60%);
 }
 
-/* Galeria */
-
-.caja-galeria{
-    position: relative;
-}
-
-.caja-galeria__row{
-    display: flex;
-}
-
-.caja-galeria__item{
-    height: 100%;
-    display: block;
-}
-
-.caja-galeria__div{
-    position: relative;
-        min-height: 1px;
-        float: left;
-}
-
-.caja-galeria div{
-    flex: 1;
-    display: flex;
-    margin: 4px;
-    min-width: 120px;
+.caja-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 400px;
+    grid-gap: 10px;
 }
 
 .caja-galeria img {
-    object-fit: cover;
-    object-position: center;
+    object-fit:cover;
+    height: 100%;
     width: 100%;
 }
 
