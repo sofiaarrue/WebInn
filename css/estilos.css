@@ -275,13 +275,22 @@ p {
 }
 
 .caja-galeria{
-    display: flex;
-    height: 250px;
-    flex-wrap: wrap;
+    position: relative;
 }
-.item{
+
+.caja-galeria__row{
+    display: flex;
+}
+
+.caja-galeria__item{
     height: 100%;
     display: block;
+}
+
+.caja-galeria__div{
+    position: relative;
+        min-height: 1px;
+        float: left;
 }
 
 .caja-galeria div{
