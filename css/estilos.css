@@ -292,7 +292,7 @@ p {
 /* Nosotros */
 
 .nosotros-intro__div {
-    background-image: url("../imagenes/staff\hotel.jpg");
+    background-image: url("../imagenes/staff\ hotel.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;  
