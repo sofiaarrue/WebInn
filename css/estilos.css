@@ -374,7 +374,7 @@ b {
 /* Nosotros */
 
 .nosotros-intro__div {
-    background-image: url("../imagenes/staff\ hotel.jpg");
+    background-image: url("../imagenes/receptionista.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -389,3 +389,11 @@ b {
     top: 290px;
     left: 30px;
 }
+
+.nosotros__servicios-div {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #877560;
+}
+
