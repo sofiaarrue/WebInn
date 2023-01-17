@@ -26,6 +26,20 @@ p {
     color: #877560;
 }
 
+ul {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #877560;
+}
+
+b {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #877560;
+}
+
 .navbar {
     height: fit-content;
     background-color: #ffffff;
@@ -278,8 +292,8 @@ p {
 
 /* Galería */
 
-.galeria__h1{
-font-size: 60px;
+.galeria__h1 {
+    font-size: 60px;
     font-weight: 800;
     color: #5DC1B9;
     text-align: center;
@@ -294,13 +308,13 @@ font-size: 60px;
 }
 
 .caja-galeria img {
-    object-fit:cover;
+    object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: 5px;
 }
 
-.caja-galeria img:first-child{
+.caja-galeria img:first-child {
     grid-column: 1/3;
 }
 
@@ -312,7 +326,7 @@ font-size: 60px;
     grid-column: 1/2;
 }
 
-.caja-galeria img:nth-child(4){
+.caja-galeria img:nth-child(4) {
     grid-column: 2/5;
 }
 
@@ -321,16 +335,18 @@ font-size: 60px;
 }
 
 /* Unidades */
-
-.ubicacion-intro__div {
-    background-image: url("../imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png");
+/*#unidades{
+    overflow-x: hidden;
+}*/
+.unidades-intro__div {
+    background-image: url("../imagenes/habitacion.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
 
 }
 
-.ubicacion-intro__div h1 {
+.unidades-intro__div h1 {
     font-size: 50px;
     font-weight: 600;
     color: #ffffff;
@@ -339,6 +355,21 @@ font-size: 60px;
     left: 30px;
 }
 
+.nuestros-apartamentos__div-reloj {
+    display: flex;
+    width: 390px;
+    background-image: url("../imagenes/reloj.png");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    object-fit: cover;
+    margin: 0 35px;
+
+}
+
+.nuestros-apartamentos__p-reloj {
+    margin: auto;
+    text-align: center;
+}
 
 /* Nosotros */
 
@@ -346,8 +377,8 @@ font-size: 60px;
     background-image: url("../imagenes/staff\ hotel.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-attachment: fixed;  
-    
+    background-attachment: fixed;
+
 }
 
 #nosotros-intro h1 {
