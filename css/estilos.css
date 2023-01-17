@@ -250,7 +250,7 @@ p {
 
 }
 
-#ubicacion-intro h1 {
+.ubicacion-intro__div h1 {
     font-size: 50px;
     font-weight: 600;
     color: #ffffff;
@@ -318,6 +318,25 @@ font-size: 60px;
 
 .caja-galeria img:nth-child(6) {
     grid-column: 2/4;
+}
+
+/* Unidades */
+
+.ubicacion-intro__div {
+    background-image: url("../imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+.ubicacion-intro__div h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+    position: relative;
+    top: 290px;
+    left: 30px;
 }
 
 
