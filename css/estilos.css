@@ -9,6 +9,7 @@ RESOLVER:
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -160,7 +161,7 @@ b {
 }
 
 .ubicacion__fondo {
-    background-color: #F4F1BB;
+    background-color: #D4A373;
 }
 
 .ubicacion__box {
@@ -170,7 +171,6 @@ b {
 .ubicacion__img {
     height: 350px;
     max-width: auto;
-    vertical-align: middle;
 }
 
 .ubicacion__textomapa {
