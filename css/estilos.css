@@ -9,7 +9,6 @@ RESOLVER:
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
 }
 
 h2 {
@@ -394,7 +393,7 @@ h3 {
     height: auto;
     min-height: auto;
     max-height: none;
-    left: 5em;
+    left: 1em;
     bottom: 15%;
     z-index: 10;
 }
@@ -407,7 +406,7 @@ h3 {
 
 .apart1__img {
     display: inline-block;
-    width: 700px;
+    width: 800px;
     height: 400px;
     object-fit: cover;
 }
@@ -426,7 +425,7 @@ h3 {
     height: auto;
     min-height: auto;
     max-height: none;
-    right: 5em;
+    right: 1em;
     bottom: 15%;
     z-index: 10;
 }
@@ -439,7 +438,7 @@ h3 {
 
 .apart2__img {
     display: inline-block;
-    width: 700px;
+    width: 800px;
     height: 400px;
     object-fit: cover;
 }
@@ -453,7 +452,7 @@ h3 {
     border: none;
 }
 
-.aparts-flecha {
+/*.aparts-flecha {
     font-size: 35px;
     width: 58px;
     height: 48px;
@@ -464,7 +463,7 @@ h3 {
     left: 10em;
     bottom: 1em;
     padding: 10px;
-}
+}*/
 
 
 
