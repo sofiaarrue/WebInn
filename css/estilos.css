@@ -41,6 +41,13 @@ b {
     color: #877560;
 }
 
+h3 {
+    font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: #877560;
+}
+
 .navbar {
     height: fit-content;
     background-color: #ffffff;
@@ -356,22 +363,64 @@ b {
 }
 
 
-
 .nuestros-apartamentos__div-reloj {
     display: flex;
     width: 390px;
     background-image: url("../imagenes/reloj.png");
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size: 100%;
     object-fit: cover;
-    margin: 0 35px;
-
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nuestros-apartamentos__p-reloj {
     margin: auto;
     text-align: center;
 }
+
+.apart1 {
+    position: relative;
+}
+
+.apart1__caja {
+    text-align: center;
+    background: rgba(254, 201, 36, .8);
+    position: absolute;
+    margin: auto;
+    padding: 20px;
+    width: 430px;
+    height: auto;
+    min-height: auto;
+    max-height: none;
+    left: 5em;
+    bottom: 20%;
+    z-index: 10;
+}
+
+.apart1__caja-img {
+    position: relative;
+    min-height: 1px;
+    float: right;
+}
+
+.apart1__img{
+    display: inline-block;
+    width: 700px;
+    object-fit: cover;
+}
+
+.aparts-btn {
+    background: #5DC1B9;
+    border-radius: 20px;
+    color: white;
+    line-height: 2;
+    width: 200px;
+    border: none;
+}
+
+
 
 /* Nosotros */
 
@@ -398,5 +447,3 @@ b {
     line-height: 30px;
     color: #877560;
 }
-
-
