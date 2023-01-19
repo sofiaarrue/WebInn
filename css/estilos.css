@@ -43,9 +43,9 @@ b {
 
 h3 {
     font-weight: bold;
-        font-size: 20px;
-        line-height: 30px;
-        color: #877560;
+    font-size: 20px;
+    line-height: 30px;
+    color: #877560;
 }
 
 .navbar {
@@ -405,7 +405,7 @@ h3 {
     float: right;
 }
 
-.apart1__img{
+.apart1__img {
     display: inline-block;
     width: 700px;
     height: 400px;
@@ -418,7 +418,7 @@ h3 {
 
 .apart2__caja {
     text-align: center;
-    background: rgba(254, 201, 36, .8);
+    background: rgba(178, 146, 109, .8);
     position: absolute;
     margin: auto;
     padding: 20px;
@@ -443,6 +443,7 @@ h3 {
     height: 400px;
     object-fit: cover;
 }
+
 .aparts-btn {
     background: #5DC1B9;
     border-radius: 20px;
@@ -450,6 +451,19 @@ h3 {
     line-height: 2;
     width: 200px;
     border: none;
+}
+
+.aparts-flecha {
+    font-size: 35px;
+    width: 58px;
+    height: 48px;
+    color: #FEC924;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    left: 10em;
+    bottom: 1em;
+    padding: 10px;
 }
 
 
