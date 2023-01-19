@@ -395,7 +395,7 @@ h3 {
     min-height: auto;
     max-height: none;
     left: 5em;
-    bottom: 20%;
+    bottom: 15%;
     z-index: 10;
 }
 
@@ -408,9 +408,41 @@ h3 {
 .apart1__img{
     display: inline-block;
     width: 700px;
+    height: 400px;
     object-fit: cover;
 }
 
+.apart2 {
+    position: relative;
+}
+
+.apart2__caja {
+    text-align: center;
+    background: rgba(254, 201, 36, .8);
+    position: absolute;
+    margin: auto;
+    padding: 20px;
+    width: 430px;
+    height: auto;
+    min-height: auto;
+    max-height: none;
+    right: 5em;
+    bottom: 15%;
+    z-index: 10;
+}
+
+.apart2__caja-img {
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+.apart2__img {
+    display: inline-block;
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
 .aparts-btn {
     background: #5DC1B9;
     border-radius: 20px;
