@@ -53,13 +53,13 @@ h3 {
 }
 
 .right-nav {
-    justify-content: space-between;
     position: relative;
-    margin: auto;
+    margin-left: auto;
 }
 
 .nav-item {
-    padding: 10px;
+    font-size: 15px;
+    padding: 0 10px;
 }
 
 .nav-link {
@@ -72,11 +72,11 @@ h3 {
     color: #18C5D7;
 }
 
-.telefono:hover {
+
+.telefono {
     color: #18C5D7;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
     font-size: 30px;
+    padding: 0 5px;
 }
 
 #bienvenidos h1 {
@@ -491,4 +491,14 @@ h3 {
     font-size: 18px;
     line-height: 30px;
     color: #877560;
+}
+
+/* Contacto */
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: ;
 }
