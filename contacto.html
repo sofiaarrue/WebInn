@@ -58,6 +58,11 @@
 
 <body id="contacto">
     <section class="contact-form">
+        <div class="row">
+            <div class="col-12">
+                <h1>Consultas y reservas</h1>
+            </div>
+        </div>
         <div class="flex-container">
             <div class="form__img">
                 <div class="img-container">
@@ -68,13 +73,32 @@
             </div>
             <form action="" class="form">
                 <div class="form__section">
-                    <input type="text" class="form__input">
+                    <label for="txt-nombre"></label>
+                    <input type="text" name="txt-nombre" class="form__input" placeholder="Nombre" required>
                 </div>
                 <div class="form__section">
-                    <input type="email" class="form__input">
+                    <input type="email" class="form__input" placeholder="Email" required>
                 </div>
                 <div class="form__section">
-                    <textarea class="form__input"></textarea>
+                    <input type="tel" class="form__input" placeholder="Teléfono" required>
+                </div>
+                <div class="form__section">
+                    <input type="date" class="form__input" required>
+                </div>
+                <div class="form__section">
+                    <input type="date" class="form__input" required>
+                </div>
+                <div class="form__section">
+                    <input type="number" class="form__input" placeholder="Cantidad de adultos" required>
+                </div>
+                <div class="form__section">
+                    <input type="number" class="form__input" placeholder="Cantidad de niños/as" required>
+                </div>
+                <div class="form__section">
+                    <textarea class="form__input" placeholder="Escriba su mensaje quí"></textarea>
+                </div>
+                <div>
+                    <button class="btn">Enviar</button>
                 </div>
             </form>
         </div>
