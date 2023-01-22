@@ -58,23 +58,17 @@
 
 <body id="contacto">
     <section class="contact-form">
-        <div class="row">
-            <div class="col-12">
-                <h1>Consultas y reservas</h1>
-            </div>
-        </div>
         <div class="flex-container">
             <div class="form__img">
+                <h1 class="my-3">Consultas y reservas</h1>
+                <p class="text-center mb-5">Contactanos para tener un asesoramiento personalizado.</p>
                 <div class="img-container">
-                    <div>
                         <img src="imagenes/logo.png" alt="">
-                    </div>
                 </div>
             </div>
             <form action="" class="form">
                 <div class="form__section">
-                    <label for="txt-nombre"></label>
-                    <input type="text" name="txt-nombre" class="form__input" placeholder="Nombre" required>
+                    <input type="text" name="txtNombre" class="form__input" placeholder="Nombre" required>
                 </div>
                 <div class="form__section">
                     <input type="email" class="form__input" placeholder="Email" required>
@@ -83,10 +77,10 @@
                     <input type="tel" class="form__input" placeholder="Teléfono" required>
                 </div>
                 <div class="form__section">
-                    <input type="date" class="form__input" required>
+                    <input type="text" class="form__input" onfocus="(this.type='date')" placeholder="Fecha de entrada" required>
                 </div>
                 <div class="form__section">
-                    <input type="date" class="form__input" required>
+                    <input type="text" class="form__input" onfocus="(this.type='date')" placeholder="Fecha de salida" required>
                 </div>
                 <div class="form__section">
                     <input type="number" class="form__input" placeholder="Cantidad de adultos" required>
@@ -98,7 +92,7 @@
                     <textarea class="form__input" placeholder="Escriba su mensaje quí"></textarea>
                 </div>
                 <div>
-                    <button class="btn">Enviar</button>
+                    <button class="btn aparts-btn">Enviar</button>
                 </div>
             </form>
         </div>

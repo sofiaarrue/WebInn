@@ -500,7 +500,7 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #5DC1B9;
+    background-color: #F4F1BB;
     margin: 50px 30px;
 }
 
@@ -532,7 +532,14 @@ h3 {
 .form__img {
     flex: 1;
     padding: 10px;
-    display: flex;
+}
+
+.form__img h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #D4A373;
+    position: relative;
+    text-align: center;
 }
 
 .form__img div {
@@ -540,18 +547,16 @@ h3 {
 }
 
 .img-container {
-    margin:auto;
-}
-
-.img-container div {
     background-color: #ffffff;
+    height: 250px;
+    width: 250px;
+    margin: auto;
     border-radius: 100%;
-    text-align: center;
-    padding: 40px;
+    display: flex;
+    z-index: 50;
 }
 
-.form-img img{
-    width: 100%;
+.form__img img{
+    width: 150px;
     margin: auto;
-    background-color: none;
 }
