@@ -47,6 +47,23 @@ h3 {
     color: #877560;
 }
 
+.btn {
+    background: #5DC1B9;
+    border-radius: 20px;
+    color: white;
+    line-height: 2;
+    width: 215px;
+    border: none;
+    transition: width 0.5s;
+}
+
+.btn:hover {
+    background: #488b86;
+    color: #fff;
+    width: 250px;
+    font-weight: 600;
+}
+
 .navbar {
     height: fit-content;
     background-color: #ffffff;
@@ -58,7 +75,7 @@ h3 {
 }
 
 .nav-item {
-    font-size: 15px;
+    font-size: 16px;
     padding: 0 10px;
 }
 
@@ -69,7 +86,7 @@ h3 {
 
 .nav-link:hover {
     font-weight: 600;
-    color: #18C5D7;
+    color: #FEC924;
 }
 
 
@@ -184,16 +201,6 @@ h3 {
     margin: auto;
 }
 
-.ubicacion__button {
-    background: #5DC1B9;
-    border-radius: 20px;
-    color: white;
-    line-height: 2;
-    width: 200px;
-    border: none;
-}
-
-
 .mas-sobre-nosotros__button-container-img {
     max-width: 100%;
     height: auto;
@@ -223,6 +230,13 @@ h3 {
     padding: 10px;
     margin: auto;
     vertical-align: middle;
+    transition: width 0.5;
+    border: none;
+}
+
+.mas-sobre-nosotros__button-container-a:hover {
+    background-color: #18C5D7;
+    font-weight: 600;
 }
 
 #newsletter {
@@ -231,13 +245,6 @@ h3 {
 
 #newsletter h4 {
     font-size: 24px;
-    color: #ffffff;
-}
-
-.newletter__button {
-    background: #5DC1B9;
-    border-radius: 20px;
-    margin: auto;
     color: #ffffff;
 }
 
@@ -298,12 +305,12 @@ h3 {
 
 /* Galería */
 
+
 .galeria__h1 {
-    font-size: 60px;
-    font-weight: 800;
-    color: #5DC1B9;
     text-align: center;
-    margin: 20px 0;
+    color: #B2926D;
+    font-weight: 500;
+    font-size: 50px;
 }
 
 .caja-galeria {
@@ -443,15 +450,6 @@ h3 {
     object-fit: cover;
 }
 
-.aparts-btn {
-    background: #5DC1B9;
-    border-radius: 20px;
-    color: white;
-    line-height: 2;
-    width: 200px;
-    border: none;
-}
-
 /*.aparts-flecha {
     font-size: 35px;
     width: 58px;
@@ -504,7 +502,7 @@ h3 {
     margin: 50px 30px;
 }
 
-.form{
+.form {
     min-width: 400px;
     flex: 1;
     text-align: center;
@@ -534,7 +532,7 @@ h3 {
     padding: 10px;
 }
 
-.form__img h1{
+.form__img h1 {
     font-size: 50px;
     font-weight: 600;
     color: #D4A373;
@@ -556,7 +554,7 @@ h3 {
     z-index: 50;
 }
 
-.form__img img{
+.form__img img {
     width: 150px;
     margin: auto;
 }
