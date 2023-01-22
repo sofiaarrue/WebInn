@@ -89,7 +89,7 @@ h3 {
     color: #FEC924;
 }
 
-.active{
+#active{
     color: #FEC924;
     font-weight: 600;
 }
@@ -135,11 +135,8 @@ h3 {
     font-weight: 700;
     font-size: 35px;
     line-height: 47px;
-    /* identical to box height */
-
     display: flex;
     text-align: center;
-
     margin: 0px 0 0px 0;
     color: #18C5D7;
 
@@ -188,20 +185,26 @@ h3 {
 }
 
 .ubicacion__fondo {
-    background-color: #D4A373;
+    background-color: #F4F1BB;
+    height: 250px;
 }
 
 .ubicacion__box {
     height: 350px;
+    position: relative;
 }
 
 .ubicacion__img {
     height: 350px;
     max-width: auto;
+    position: absolute;
+    bottom: 18%;
+    left: 15%;
 }
 
 .ubicacion__textomapa {
-    text-align: center;
+    position: relative;
+    padding-top: 20px;
     margin: auto;
 }
 
