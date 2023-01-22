@@ -89,6 +89,10 @@ h3 {
     color: #FEC924;
 }
 
+.active{
+    color: #FEC924;
+    font-weight: 600;
+}
 
 .telefono {
     color: #18C5D7;
