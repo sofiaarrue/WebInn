@@ -472,9 +472,9 @@ h3 {
 
 
 
-/* Nosotros */
+/* Servicios */
 
-.nosotros-intro__div {
+.servicios-intro__div {
     background-image: url("../imagenes/receptionista.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -482,7 +482,7 @@ h3 {
 
 }
 
-#nosotros-intro h1 {
+#servicios-intro h1 {
     font-size: 50px;
     font-weight: 600;
     color: #ffffff;
@@ -491,7 +491,7 @@ h3 {
     left: 30px;
 }
 
-.nosotros__servicios-div {
+.servicios__servicios-div {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
