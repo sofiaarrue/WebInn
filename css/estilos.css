@@ -157,19 +157,16 @@ h3 {
     color: #18C5D7;
 }
 
-#mycarousel{
-    width: 700px;
-    height: 350px;
+.slider-container{
     margin: auto;
+    width: 800px;
+    padding: 30px;
 }
 
-.carousel-item img {
-    object-fit: cover;
-}
-
-.flecha{
-    color: #FEC924;
-    font-weight: bold;
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .ubicacion__fondo {
