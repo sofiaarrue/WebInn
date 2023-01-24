@@ -33,6 +33,12 @@ ul {
     color: #877560;
 }
 
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 b {
     font-weight: bold;
     font-size: 18px;
@@ -157,19 +163,33 @@ h3 {
     color: #18C5D7;
 }
 
-#mycarousel{
-    width: 700px;
-    height: 350px;
+.slider-container{
     margin: auto;
+    width: 800px;
+    padding: 30px;
 }
 
-.carousel-item img {
+.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+    transition: opacity .5;
+}
+
+.slider li img {
     object-fit: cover;
-}
-
-.flecha{
-    color: #FEC924;
-    font-weight: bold;
+    width: 100%;
+    height: 300px;
 }
 
 .ubicacion__fondo {
