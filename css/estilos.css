@@ -500,9 +500,10 @@ PARA PONER LAS IMAGINES
 }
 
 .grid-item {
-    color: #fff;
+    color:#877560;
     font-weight: 600;
     font-size: 24px;
+    object-fit: cover;
 }
 
 
