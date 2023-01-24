@@ -157,31 +157,19 @@ h3 {
     color: #18C5D7;
 }
 
-#galeria img {
-    width: 450px;
+#mycarousel{
+    width: 700px;
     height: 350px;
-    display: block;
     margin: auto;
+}
+
+.carousel-item img {
     object-fit: cover;
 }
 
-.flechas {
-    width: max-content;
-    margin: auto;
-}
-
-.flechas i {
-    font-size: 35px;
-    width: 58px;
-    height: 48px;
+.flecha{
     color: #FEC924;
-    text-align: center;
-    margin: 0px;
-}
-
-.flechas button {
-    border: 0;
-    background: 0;
+    font-weight: bold;
 }
 
 .ubicacion__fondo {
