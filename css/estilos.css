@@ -33,6 +33,12 @@ ul {
     color: #877560;
 }
 
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 b {
     font-weight: bold;
     font-size: 18px;
@@ -163,10 +169,27 @@ h3 {
     padding: 30px;
 }
 
-ul, li{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+    transition: opacity .5;
+}
+
+.slider li img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
 }
 
 .ubicacion__fondo {
