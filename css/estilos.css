@@ -1,6 +1,5 @@
 /* 
 RESOLVER:
-    cambiar posicion del texto de ubicación
     cambiar ids y clases (solo tendrá id los bodys)
 */
 
@@ -161,45 +160,63 @@ li {
     color: #18C5D7;
 }
 
-.slider-container {
-    margin: auto;
-    background-color: white;
-    width: 800px;
-    padding: 30px;
-    position: relative;
+.slider {
+    overflow: hidden;
 }
 
-ul.slider {
-    position: relative;
-    width: 800px;
-    height: 400px;
-}
-
-ul.slider li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
-    background: #fff;
-}
-
-ul.slider li img {
-    width: 100%;
+.slider figure img {
+    width: 20%;
+    float: left;
     height: 400px;
     object-fit: cover;
 }
 
-ul.slider li:first-child {
-    opacity: 1;
-    /*Mostramos el primer <li>*/
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
 }
 
-ul.slider li:target {
-    opacity: 1;
-    /*Mostramos el <li> del enlace que pulsemos*/
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
 }
 
 .menu {
