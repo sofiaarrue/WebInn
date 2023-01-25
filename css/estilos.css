@@ -1,6 +1,5 @@
 /* 
 RESOLVER:
-    scroll
     cambiar posicion del texto de ubicación
     cambiar ids y clases (solo tendrá id los bodys)
 */
@@ -333,9 +332,9 @@ ul.slider li:target {
     font-size: 50px;
     font-weight: 600;
     color: #ffffff;
-    position: relative;
-    top: 290px;
-    left: 30px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 }
 
 .ubicacion__acts-cercanas-fondo {
@@ -406,16 +405,16 @@ ul.slider li:target {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-
+    position: relative;
 }
 
 .unidades-intro__div h1 {
     font-size: 50px;
     font-weight: 600;
     color: #ffffff;
-    position: relative;
-    top: 290px;
-    left: 30px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 }
 
 
