@@ -400,9 +400,7 @@ ul.slider li:target {
 }
 
 /* Unidades */
-/*#unidades{
-    overflow-x: hidden;
-}*/
+
 .unidades-intro__div {
     background-image: url("../imagenes/habitacion.jpg");
     background-repeat: no-repeat;
