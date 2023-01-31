@@ -122,6 +122,7 @@ li {
         margin-bottom: 0%;
         padding-bottom: 10%;
         min-height: max-content;
+        align-items: center;
     }
 
     .navbar-ul {
@@ -146,14 +147,13 @@ li {
         position: absolute;
         top: 2%;
         left: 38%;
-        vertical-align: middle;
     }
 
     .nav-icons {
         position: absolute;
         top: 1%;
         right: 1.5%;
-        vertical-align: middle;
+        font-size: 30px;
     }
 
     .nav-link {
@@ -175,20 +175,15 @@ li {
         display: inline-block;
         height: auto;
         position: relative;
-        top: 1%;
-        left: 3%;
         z-index: 10;
+        top: 1%;
+        left: 3.5%;
     }
 
     .toggle-menu i {
         font-size: 30px;
         color: #18C5D7;
     }
-
-    #bienvenidos {
-        position: relative;
-    }
-
 }
 
 #bienvenidos h1 {
@@ -199,7 +194,6 @@ li {
     background-clip: text;
     font-size: 50px;
     font-weight: 600;
-
 }
 
 .elipse {
@@ -236,8 +230,8 @@ li {
 .descripcion__i {
     display: flex;
     justify-content: space-between;
-    width: 500px;
-    height: 60px;
+    padding: 5%;
+    width: 100%;
     background: rgba(244, 241, 187, 0.8);
     border-radius: 20px;
     align-items: center;
@@ -246,6 +240,7 @@ li {
 
 .descripcion__i i {
     color: #18C5D7;
+    font-size: 20px;
 }
 
 .slider {
@@ -425,6 +420,33 @@ li {
     font-size: 30px;
     color: #8AE0DB;
     opacity: .6;
+}
+
+@media screen and (max-width: 768px) {
+
+    .elipse{
+        display: none;
+    }
+
+    .ubicacion__fondo{
+        height: auto;
+    }
+
+    .ubicacion__box{
+        height: inherit;
+    }
+
+    .ubicacion__textomapa{
+       padding-bottom: 3%;
+       margin: 0;
+    }
+
+    .ubicacion__img{
+        position: relative;
+        top: -15%;
+        left: 30%;
+        padding: 0%;
+    }
 }
 
 /* Ubicacion */
