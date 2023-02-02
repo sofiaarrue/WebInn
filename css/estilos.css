@@ -114,6 +114,7 @@ li {
     padding: 0 5px;
 }
 
+/*nav responsivo*/
 @media screen and (max-width: 768px) {
     .navbar {
         position: relative;
@@ -421,7 +422,7 @@ li {
     color: #8AE0DB;
     opacity: .6;
 }
-
+ /*index responsivo*/
 @media screen and (max-width: 768px) {
 
     .grid-item b{
@@ -635,24 +636,15 @@ li {
     object-fit: cover;
 }
 
-/*.aparts-flecha {
-    font-size: 35px;
-    width: 58px;
-    height: 48px;
-    color: #FEC924;
-    text-align: center;
-    z-index: 20;
-    position: absolute;
-    left: 10em;
-    bottom: 1em;
-    padding: 10px;
-}*/
+ /*unidades responsivo*/
+ @media screen and (max-width: 768px) {
+    
+ }
 
 
-
-/* Servicios */
 
 /* Servicios 
+
 .servicios-intro__div {
     background-image: url("../imagenes/receptionista.jpg");
     background-repeat: no-repeat;
