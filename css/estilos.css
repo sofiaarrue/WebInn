@@ -422,32 +422,33 @@ li {
     color: #8AE0DB;
     opacity: .6;
 }
- /*index responsivo*/
+
+/*index responsivo*/
 @media screen and (max-width: 768px) {
 
-    .grid-item b{
+    .grid-item b {
         font-size: 10px;
-        
+
     }
 
-    .elipse{
+    .elipse {
         display: none;
     }
 
-    .ubicacion__fondo{
+    .ubicacion__fondo {
         height: auto;
     }
 
-    .ubicacion__box{
+    .ubicacion__box {
         height: inherit;
     }
 
-    .ubicacion__textomapa{
-       padding-bottom: 3%;
-       margin: 0;
+    .ubicacion__textomapa {
+        padding-bottom: 3%;
+        margin: 0;
     }
 
-    .ubicacion__img{
+    .ubicacion__img {
         position: relative;
         top: -15%;
         left: 30%;
@@ -538,6 +539,7 @@ li {
 /* Unidades */
 
 .unidades-intro__div {
+    height: 25em;
     background-image: url("../imagenes/habitacion.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -606,6 +608,7 @@ li {
 
 .apart2 {
     position: relative;
+    margin-top: 6em;
 }
 
 .apart2__caja {
@@ -627,6 +630,7 @@ li {
     position: relative;
     min-height: 1px;
     float: left;
+    transform: rotateY(3.142rad);
 }
 
 .apart2__img {
@@ -636,10 +640,63 @@ li {
     object-fit: cover;
 }
 
- /*unidades responsivo*/
- @media screen and (max-width: 768px) {
+/*unidades responsivo*/
+@media screen and (max-width: 768px) {
     
- }
+    .unidades-intro__div {
+        height: 15em;
+        object-fit: cover;
+        border-bottom-left-radius: 3em;
+        border-bottom-right-radius: 3em;
+    }
+
+    .apart1__img {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .apart1__caja {
+        position: relative;
+        margin: auto;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .apart1 {
+        margin-top: 3em;
+    }
+
+    .apart2 {
+        margin-top: 3em;
+    }
+
+
+    .apart2__img {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .apart2__caja {
+        position: relative;
+        margin: auto;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        left: 0;
+        bottom: 0;
+    }
+}
 
 
 
