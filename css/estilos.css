@@ -424,6 +424,11 @@ li {
 
 @media screen and (max-width: 768px) {
 
+    .grid-item b{
+        font-size: 10px;
+        
+    }
+
     .elipse{
         display: none;
     }
