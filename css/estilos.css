@@ -492,7 +492,6 @@ li {
 }
 
 .ubicacion-intro__div h1 {
-    font-size: 50px;
     font-weight: 600;
     color: #ffffff;
     position: absolute;
@@ -504,6 +503,7 @@ li {
     background-color: #FEC924;
     opacity: 0.7;
 }
+
 
 .ubicacion__mapa {
     background-color: #F5F5F5;
