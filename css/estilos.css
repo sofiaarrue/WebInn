@@ -10,6 +10,7 @@ RESOLVER:
 
 h1 {
     font-size: 50px;
+    font-weight: 600;
 }
 
 h2 {
@@ -71,10 +72,27 @@ li {
     font-weight: 600;
 }
 
+.btn-whatsapp {
+    position: fixed;
+    right: 5%;
+    bottom: 0px;
+    background-color: #FEC924;
+    color: white;
+    padding: 7px 15px;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.btn-whatsapp a {
+    color: white !important;
+}
+
 @media screen and (max-width: 768px) {
 
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     h2 {
@@ -89,11 +107,6 @@ li {
         font-size: 16px;
     }
 
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
 }
 
 .navbar-ul {
@@ -111,6 +124,10 @@ li {
 
 .nav-icons {
     padding: 10px;
+}
+
+.nav-logo {
+    padding-top: 10px;
 }
 
 .toggle-menu {
@@ -203,6 +220,7 @@ li {
         z-index: 10;
         top: 1%;
         left: 3.5%;
+        padding: 10px;
     }
 
     .toggle-menu i {
@@ -213,12 +231,24 @@ li {
 
 #bienvenidos h1 {
     text-align: center;
-    background: linear-gradient(180deg, #B2926D 0%, #000000 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-size: 50px;
-    font-weight: 600;
+    position: absolute;
+    color: #F5F5F5;
+}
+
+@media screen and (min-width: 768px) {
+    #bienvenidos h1 {
+        text-align: center;
+        background: linear-gradient(180deg, #B2926D 0%, #000000 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+
+#bienvenidos img {
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
 }
 
 .elipse {
@@ -450,6 +480,21 @@ li {
 /*index responsivo*/
 @media screen and (max-width: 768px) {
 
+    #bienvenidos h1 {
+        position: absolute;
+        top: 1;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        color: #F5F5F5;
+    }
+
+    #bienvenidos img {
+        border-radius: 5%;
+
+    }
+
     .grid-item b {
         font-size: 10px;
 
@@ -492,7 +537,6 @@ li {
 }
 
 .ubicacion-intro__div h1 {
-    font-weight: 600;
     color: #ffffff;
     position: absolute;
     bottom: 5%;
@@ -504,9 +548,17 @@ li {
     opacity: 0.7;
 }
 
+.img-float{
+    float: right;
+}
 
 .ubicacion__mapa {
     background-color: #F5F5F5;
+}
+
+.ubicacion__mapa-div{
+    width: 60%;
+    margin: auto;
 }
 
 .ubicacion__mapa-img {
@@ -525,6 +577,18 @@ li {
         border-bottom-left-radius: 3em;
         border-bottom-right-radius: 3em;
     }
+
+        .ubicacion__mapa-div {
+            width: 80%;
+        }
+
+        .img-float{
+            float: none;
+        }
+
+        .ubicacion__acts-cercanas-img{
+            text-align: center;
+        }
 }
 
 /* Galería */
@@ -533,8 +597,6 @@ li {
 .galeria__h1 {
     text-align: center;
     color: #B2926D;
-    font-weight: 500;
-    font-size: 50px;
 }
 
 .caja-galeria {
@@ -799,7 +861,7 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F4F1BB;
-    margin: 50px 30px;
+    margin: 3% 0;
 }
 
 .form {
@@ -833,8 +895,6 @@ li {
 }
 
 .form__img h1 {
-    font-size: 50px;
-    font-weight: 600;
     color: #D4A373;
     position: relative;
     text-align: center;
