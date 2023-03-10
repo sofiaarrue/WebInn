@@ -137,23 +137,50 @@ h3 {
 .nuestroServicio-imgcontainer{
     background-color: #E4E4E4;
     border-radius: 1.5em;
+    min-height: 80vh;
 }
 
 .nuestroServicio-imgcontainer img{
     max-width: 80%;
 }
 
+.slider__container{
+    width: 90%;
+    min-height: 80vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 3em 1fr 3em;
+    gap: 1em;
+}
+
 .slider__body{
-    opacity:0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
     pointer-events: none;
+    align-items: center;
     transition: opacity 1.5s;
 }
 
 .slider__body--show{
+    
+    position: relative;
     opacity: 1;
     pointer-events: unset;
 }
 
 .slider__icon{
     align-self: center;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slider__icon:nth-of-type(2){
+    justify-self: end;
+}
+
+.slider__img{
+    width: 20em;
+    object-fit: cover;
 }
