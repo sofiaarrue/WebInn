@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Raleway:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
     font-weight: 600;
-    color: #fff;
 }
 
 h2 {
     text-align: center;
-    color: #B2926D;
     font-weight: 700;
     font-size: 35px;
     line-height: 47px;
@@ -22,15 +23,21 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    color: #fff;
+
 }
 
 h3 {
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-    color: #000;
     text-align: center;
+}
+
+.btn {
+    text-align: center;
+    background-color: #F5FF90;
+    padding: 0.5em 1em;
+    border-radius: 0.6em;
 }
 
 /*Menu*/
@@ -47,14 +54,16 @@ h3 {
     flex-direction: row;
     width: 100%;
     text-align: center;
-    margin-top: 2.8em;
+    margin-top: 2.7em;
     transition: transform 0.2s;
     transform: translateX(-150%);
-    background-color: #FEC924;
+    background-color: #F5FF90;
     color: #fff;
     position: absolute;
     top: 10%;
     z-index: 50;
+    border-bottom-left-radius: 1.7em;
+    border-bottom-right-radius: 1.7em;
 }
 
 .navbar-ul--show {
@@ -65,6 +74,10 @@ h3 {
     position: absolute;
     top: 2%;
     left: 3%;
+}
+
+.nav-item {
+    list-style-type: none;
 }
 
 .nav-link {
@@ -105,11 +118,21 @@ h3 {
     margin-bottom: 3em;
 }
 
-.imgIntro{
-    margin-top: 4em;
+.intro h1 {
+    color: #fff;
 }
 
-.porQueElegirnos{
+.intro h3 {
+    color: #fff;
+}
+
+.imgIntro {
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.porQueElegirnos {
     margin-top: 6em;
     margin-bottom: 6em;
     background-color: #F5FF90;
@@ -117,7 +140,7 @@ h3 {
     position: relative;
 }
 
-.porQueElegirnos__h2container{
+.porQueElegirnos__h2container {
     position: inherit;
     align-self: center;
 }
@@ -134,17 +157,17 @@ h3 {
     right: 0;
 }
 
-.nuestroServicio-imgcontainer{
+.nuestroServicio-imgcontainer {
     background-color: #E4E4E4;
     border-radius: 1.5em;
     min-height: 80vh;
 }
 
-.nuestroServicio-imgcontainer img{
+.nuestroServicio-imgcontainer img {
     max-width: 80%;
 }
 
-.slider__container{
+.slider__container {
     width: 90%;
     min-height: 80vh;
     margin: 0 auto;
@@ -154,7 +177,7 @@ h3 {
     gap: 1em;
 }
 
-.slider__body{
+.slider__body {
     grid-column: 2/3;
     grid-row: 1/2;
     opacity: 0;
@@ -163,24 +186,24 @@ h3 {
     transition: opacity 1.5s;
 }
 
-.slider__body--show{
-    
+.slider__body--show {
+
     position: relative;
     opacity: 1;
     pointer-events: unset;
 }
 
-.slider__icon{
+.slider__icon {
     align-self: center;
     cursor: pointer;
     cursor: hand;
 }
 
-.slider__icon:nth-of-type(2){
+.slider__icon:nth-of-type(2) {
     justify-self: end;
 }
 
-.slider__img{
+.slider__img {
     width: 20em;
     object-fit: cover;
 }
