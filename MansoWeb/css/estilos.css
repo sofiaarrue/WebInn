@@ -207,3 +207,40 @@ h3 {
     width: 20em;
     object-fit: cover;
 }
+
+.footer {
+    background-color: #080357;
+    margin-top: 8em;
+}
+
+.footer__form-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.footer__form {
+    background-color: #D6FFB7;
+    border-radius: 2em;
+    width: 70%;
+    position: relative;
+    top: -4em;
+}
+
+.form__input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    color: #111;
+    border-radius: 5px;
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+.form textarea {
+    min-height: 140px;
+}
