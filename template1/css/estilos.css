@@ -506,7 +506,7 @@ li {
     filter: sepia(60%);
 }
 
-/*ubicaion responsivo*/
+/*ubicacion responsivo*/
 @media screen and (max-width: 768px) {
     .ubicacion-intro__div {
         height: 11em;

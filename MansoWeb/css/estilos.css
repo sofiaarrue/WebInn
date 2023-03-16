@@ -8,37 +8,67 @@
 
 h1 {
     text-align: center;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 h2 {
     text-align: center;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 47px;
-}
-
-p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-
+    font-size: 32px;
+    line-height: 64px;
+    font-weight: bold;
 }
 
 h3 {
     font-weight: bold;
     font-size: 20px;
-    line-height: 30px;
-    text-align: center;
     color: #080357;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
 }
 
 .btn {
     text-align: center;
     background-color: #F5FF90;
-    padding: 0.5em 1em;
-    border-radius: 0.6em;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.5em 1.7em;
+    border-radius: 1em;
+}
+
+.btn:hover {
+    border-color: #080357;
+    background-color: #F5FF90;
+}
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 48px;
+        line-height: 64px
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
 }
 
 /*Menu*/
@@ -78,20 +108,21 @@ h3 {
 
 .nav-item {
     list-style-type: none;
+    padding: 1em .3em;
 }
 
 .nav-link {
-    font-weight: bold;
-    color: #FFC15E;
+    font-size: 16px;
+    font-weight: 400;
+    color: #080357;
 }
 
 .nav-link:hover {
-    color: #080357;
+    font-weight: 600;
 }
 
 #active {
-    color: #080357;
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 .toggle-menu {
@@ -106,8 +137,48 @@ h3 {
 }
 
 .toggle-menu i {
-    font-size: 30px;
-    color: #F5FF90;
+    font-size: 25px;
+    color: #080357;
+}
+
+.btn-menu {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .toggle-menu {
+        display: none;
+    }
+
+    .nav-logo {
+        z-index: 100;
+    }
+
+    .navbar-ul {
+        display: block;
+        text-align: end;
+        margin-top: 0;
+        transition: none;
+        transform: none;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        border-radius: 0%;
+    }
+
+    .nav-item {
+        list-style: none;
+        display: inline-block;
+        margin: .5em .5em;
+    }
+
+    .btn-menu {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        z-index: 1000;
+    }
 }
 
 /* Inicio*/
@@ -133,8 +204,8 @@ h3 {
     padding-bottom: 1em;
 }
 
-@media screen and (min-width: 768px){
-    
+@media screen and (min-width: 768px) {
+
     .imgIntro {
         display: flex;
         justify-content: end;
@@ -177,16 +248,15 @@ h3 {
     padding-top: 1.5em;
 }
 
-.websParaHoteles__p p{
-    width: 65%;
+.websParaHoteles__p p {
+    width: 70%;
 }
 
 .websParaHoteles {
-    margin-top: 3em;
     margin-bottom: 3em;
 }
 
-.websParaHoteles__img svg{
+.websParaHoteles__img svg {
     width: 40%;
 }
 
@@ -287,7 +357,7 @@ h3 {
     color: #fff;
 }
 
-.footer__ul{
+.footer__ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -323,4 +393,32 @@ h3 {
 
 .btn-whatsapp a {
     color: white !important;
+}
+
+/* Diseño Web */
+
+.dw__intro {
+    height: 11em;
+    object-fit: cover;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    background-image: url("../imagenes/dw__intro.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dw__intro-h1 {
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+
+    .dw__intro {
+        height: 23em;
+        background-size: 100% 100%;
+    }
 }
