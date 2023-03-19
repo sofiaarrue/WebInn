@@ -485,25 +485,33 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: opacity 0.2s;
+    transition: all 0.2s;
     opacity: 1;
     z-index: 100;
+    position: absolute;
 }
 
 .pasosTitle--hidden {
     opacity: 0;
+    z-index: -100;
 }
 
 .pasosP {
     opacity: 0;
-    transition: opacity .2s;
+    transition: all .2s;
 }
 
 .pasosP--show {
     opacity: 1;
 }
 
+.pasosP p{
+    display: inline;
+}
 
+.pasosP i{
+    display: inline;
+}
 
 @media screen and (min-width: 768px) {
 
