@@ -425,7 +425,7 @@ p {
 }
 
 .dw__propiedades {
-    margin: 5em 0;
+    margin: 6em 0 2em 0;
 }
 
 .dw__propiedades-div-container {
@@ -448,10 +448,39 @@ p {
     font-size: 2em;
 }
 
+.modalidadDeTrabajo__img-container {
+    display: none;
+}
+
+.mdt__div {
+    border-color: #080357;
+    border-width: 10px;
+}
+
+.mdt__num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 @media screen and (min-width: 768px) {
 
     .dw__intro {
-        height: 23em;
+        height: 90vh;
         background-size: 100% 100%;
     }
+
+    .modalidadDeTrabajo__img-container {
+        height: 120vh;
+        object-fit: cover;
+        background-image: url("../imagenes/mdtimg.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
