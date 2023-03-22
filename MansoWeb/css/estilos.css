@@ -8,14 +8,14 @@
 
 h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 h2 {
     text-align: center;
-    font-size: 28px;
-    line-height: 64px;
+    font-size: 36px;
+    line-height: 50px;
     font-weight: bold;
 }
 
@@ -54,12 +54,13 @@ p {
 @media screen and (min-width: 768px) {
 
     h1 {
-        font-size: 48px;
+        font-size: 54px;
         line-height: 64px
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 45px;
+        line-height: 64px;
     }
 
     h3 {
@@ -224,7 +225,7 @@ p {
 }
 
 .porQueElegirnos {
-    margin-top: 6em;
+    margin-top: 4em;
     margin-bottom: 6em;
     background-color: #F5FF90;
     height: 15em;
@@ -250,25 +251,33 @@ p {
     right: 0;
 }
 
+.websParaHoteles {
+    margin-bottom: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .websParaHoteles__p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 .websParaHoteles__p p {
     width: 70%;
 }
 
-.websParaHoteles {
-    margin-bottom: 3em;
+.websParaHoteles__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .websParaHoteles__img svg {
-    width: 40%;
+    width: 50%;
 }
-
 
 .nuestroServicio {
     margin-top: 5em;
@@ -481,6 +490,10 @@ p {
     position: relative;
 }
 
+.pasosTitle h3 {
+    color: #111;
+}
+
 .pasosTitle {
     display: flex;
     align-items: center;
@@ -505,11 +518,11 @@ p {
     opacity: 1;
 }
 
-.pasosP p{
+.pasosP p {
     display: inline;
 }
 
-.pasosP i{
+.pasosP i {
     display: inline;
 }
 
@@ -521,14 +534,9 @@ p {
     }
 
     .modalidadDeTrabajo__img-container {
-        height: 120vh;
         object-fit: cover;
-        background-image: url("../imagenes/mdtimg.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-attachment: fixed;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        height: 145vh;
+        overflow-x: hidden;
     }
 }
