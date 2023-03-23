@@ -536,7 +536,32 @@ p {
     .modalidadDeTrabajo__img-container {
         object-fit: cover;
         display: flex;
-        height: 145vh;
         overflow-x: hidden;
+        height: 120vh;
+    }
+}
+
+/*Quienes somos */
+
+.qs__intro {
+    height: 11em;
+    object-fit: cover;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    background-image: url("../imagenes/qs__intro.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .qs__intro {
+        height: 90vh;
+        background-size: 100% 100%;
     }
 }

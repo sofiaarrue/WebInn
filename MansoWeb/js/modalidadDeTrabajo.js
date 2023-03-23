@@ -57,18 +57,3 @@ toggleUp4.addEventListener("click", () => {
     pasosP4.classList.toggle("pasosP--show");
     pasosTitle4.classList.toggle("pasosTitle--hidden")
 });
-
-const toggleDown5 = document.getElementById("toggle-down5");
-const toggleUp5 = document.getElementById("toggle-up5");
-const pasosTitle5 = document.getElementById("pasosTitle5");
-const pasosP5 = document.getElementById("pasosP5");
-
-toggleDown5.addEventListener("click", () => {
-    pasosP5.classList.toggle("pasosP--show");
-    pasosTitle5.classList.toggle("pasosTitle--hidden")
-});
-
-toggleUp5.addEventListener("click", () => {
-    pasosP5.classList.toggle("pasosP--show");
-    pasosTitle5.classList.toggle("pasosTitle--hidden")
-});
