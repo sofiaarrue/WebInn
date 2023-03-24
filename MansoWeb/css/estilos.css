@@ -88,10 +88,11 @@ p {
     background-color: #fff;
     margin-top: 0%;
     margin-bottom: 0%;
-    height: 3em;
+    height: 10vh;
 }
 
 .navbar-ul {
+    height: 90vh;
     flex-direction: row;
     width: 100%;
     text-align: center;
@@ -166,8 +167,9 @@ p {
     }
 
     .navbar-ul {
-        display: block;
-        text-align: end;
+        display: flex;
+        align-items: center;
+        justify-content: end;
         margin-top: 0;
         transition: none;
         transform: none;
@@ -175,6 +177,7 @@ p {
         position: absolute;
         top: 0;
         border-radius: 0%;
+        height: 12vh;
     }
 
     .nav-item {
@@ -416,13 +419,13 @@ p {
 /* Diseño Web */
 
 .dw__intro {
-    height: 11em;
+    height: 90vh;
     object-fit: cover;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
     background-image: url("../imagenes/dw__intro.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 150% 100%;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -528,16 +531,54 @@ p {
 
 @media screen and (min-width: 768px) {
 
-    .dw__intro {
-        height: 90vh;
-        background-size: 100% 100%;
-    }
-
     .modalidadDeTrabajo__img-container {
         object-fit: cover;
         display: flex;
         overflow-x: hidden;
         height: 120vh;
+    }
+}
+
+/* Proyectos */
+
+.proyectos__intro {
+    height: 90vh;
+    object-fit: cover;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    background-image: url("../imagenes/proyectos__intro.png");
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyecto__img-container img {
+    width: 100%;
+}
+
+.proyecto__text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .proyectos__intro {
+        background-size: 100% 100%;
+    }
+
+    .img2 {
+        transform: translateX(50%);
+    }
+
+    .text2 {
+        transform: translateX(-200%);
     }
 }
 
@@ -557,11 +598,35 @@ p {
     justify-content: center;
 }
 
+.qs__img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qs__img {
+    width: 50%;
+}
+
 
 @media screen and (min-width: 768px) {
 
     .qs__intro {
         height: 90vh;
         background-size: 100% 100%;
+    }
+
+    .qs__div-background2 {
+        background-image: url("../imagenes/vectorizq.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 50%;
+    }
+
+    .qs__div-background1 {
+        background-image: url("../imagenes/vectorder.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 50%;
     }
 }
