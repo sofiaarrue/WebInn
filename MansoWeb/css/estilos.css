@@ -113,8 +113,12 @@ p {
 
 .nav-logo {
     position: absolute;
-    top: 2%;
-    left: 3%;
+    top: -4.5em;
+    left: -2em;
+}
+
+.nav-logo img {
+    width: 200px;
 }
 
 .nav-item {
@@ -583,8 +587,8 @@ p {
 
 .qs__fondo {
     background-image: url("../imagenes/qs__fondo.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .qs__texto {
@@ -608,15 +612,14 @@ p {
 
 .contacto__intro {
     height: 70vh;
-    border-bottom-left-radius: 3em;
-    border-bottom-right-radius: 3em;
     background-image: url("../imagenes/qs__intro.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 80%;
     background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #080357;
 }
 
 .flex-container {
@@ -625,7 +628,10 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F5FF90;
-    margin: 3% 0;
+    margin: 0 3em 0 3em;
+    position: relative;
+    top: -3em;
+    border-radius: 1em;
 }
 
 .form {
@@ -679,6 +685,10 @@ p {
 }
 
 .form__img img {
-    width: 150px;
+    width: 90%;
     margin: auto;
+}
+
+.contacto-footer {
+    background-color: #080357;
 }
