@@ -51,6 +51,10 @@ p {
     background-color: #F5FF90;
 }
 
+li{
+    list-style: none;
+}
+
 @media screen and (min-width: 768px) {
 
     h1 {
@@ -84,11 +88,12 @@ p {
 /*Menu*/
 
 .navbar {
-    position: relative;
+    position: sticky;
     background-color: #fff;
-    margin-top: 0%;
-    margin-bottom: 0%;
     height: 10vh;
+    width: 100%;
+    top: 0;
+    z-index: 500;
 }
 
 .navbar-ul {
@@ -185,7 +190,6 @@ p {
     }
 
     .nav-item {
-        list-style: none;
         display: inline-block;
         margin: .5em .5em;
     }
@@ -410,7 +414,7 @@ p {
 /* Diseño Web */
 
 .dw__intro {
-    height: 90vh;
+    height: 85vh;
     object-fit: cover;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
@@ -533,7 +537,7 @@ p {
 /* Proyectos */
 
 .proyectos__intro {
-    height: 90vh;
+    height: 85vh;
     object-fit: cover;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
@@ -552,8 +556,8 @@ p {
 
 .proyecto__text-container {
     display: flex;
+    justify-content:flex-start;
     align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
