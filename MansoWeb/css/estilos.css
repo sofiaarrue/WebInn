@@ -589,10 +589,9 @@ li{
     width: 50%;
 }
 
-.qs__fondo {
-    background-image: url("../imagenes/qs__fondo.png");
+.qs__main{
+    background-image:url("");
     background-size: 100% 100%;
-    background-repeat: no-repeat;
 }
 
 .qs__texto {
@@ -600,11 +599,6 @@ li{
 }
 
 @media screen and (min-width: 768px) {
-
-    .qs__intro {
-        height: 90vh;
-        background-size: 100% 100%;
-    }
 
     .qs__texto2 {
         display: flex;
