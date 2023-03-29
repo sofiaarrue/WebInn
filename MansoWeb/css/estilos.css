@@ -85,6 +85,7 @@ li{
 
 }
 
+
 /*Menu*/
 
 .navbar {
@@ -99,17 +100,15 @@ li{
 .navbar-ul {
     height: 90vh;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin-top: 2.7em;
-    transition: transform 0.2s;
+    transition: transform 0.4s;
     transform: translateX(-150%);
     background-color: #F5FF90;
     position: absolute;
-    top: 10%;
+    top: 9%;
     z-index: 50;
-    border-bottom-left-radius: 1.7em;
-    border-bottom-right-radius: 1.7em;
 }
 
 .navbar-ul--show {
@@ -156,9 +155,36 @@ li{
     cursor: pointer;
 }
 
+.toggle-menu2 {
+    display: inline-block;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    top: 1%;
+    right: 3.5%;
+    padding: 10px;
+    cursor: pointer;
+}
+
 .toggle-menu i {
     font-size: 25px;
     color: #080357;
+}
+
+.toggle-menu2 i {
+    font-size: 25px;
+    color: #080357;
+}
+
+.toggle-menu--show{
+    z-index: 100;
+    opacity: 1;
+}
+
+.toggle-menu--hidden {
+    z-index: 0;
+    opacity: 0;
 }
 
 .btn-menu {
@@ -186,7 +212,8 @@ li{
         position: absolute;
         top: 0;
         border-radius: 0%;
-        height: 12vh;
+        height: 10vh;
+        width: 100%;
     }
 
     .nav-item {
@@ -669,7 +696,8 @@ li{
 }
 
 .form__img div {
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .img-container {
