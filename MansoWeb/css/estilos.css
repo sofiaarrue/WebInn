@@ -49,6 +49,8 @@ p {
 .btn:hover {
     border-color: #080357;
     background-color: #F5FF90;
+    text-decoration: none;
+    color:#080357;
 }
 
 li{
@@ -264,7 +266,7 @@ li{
 
 .porQueElegirnos {
     margin-top: 4em;
-    margin-bottom: 6em;
+    margin-bottom: 4em;
     background-color: #F5FF90;
     height: 15em;
     position: relative;
@@ -279,13 +281,13 @@ li{
 
 .Mnaranja {
     position: absolute;
-    top: -3em;
+    top: -3.8em;
     left: 0;
 }
 
 .Mazul {
     position: absolute;
-    bottom: -3em;
+    bottom: -3.8em;
     right: 0;
 }
 
@@ -311,6 +313,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .websParaHoteles__img svg {
@@ -616,9 +619,10 @@ li{
     width: 50%;
 }
 
-.qs__main{
-    background-image:url("");
-    background-size: 100% 100%;
+.qs__fondo{
+    background-image:url("../imagenes/Crop_qs__fondo.svg");
+    background-size: 100% 30;
+    background-repeat: no-repeat;
 }
 
 .qs__texto {
