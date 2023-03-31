@@ -105,12 +105,12 @@ li{
     height: 90vh;
     flex-direction: row;
     width: 80%;
-    margin-top: 2.7em;
     transition: transform 0.4s;
     transform: translateX(-150%);
     background-color: #fff;
-    position: absolute;
-    top: 9%;
+    position: relative;
+    top: 2.4em;
+    left: 0;
     z-index: 50;
 }
 
@@ -132,7 +132,7 @@ li{
     display: flex;
     align-items: center;
     list-style-type: none;
-    padding: .8em .3em;
+    padding: .8em 0;
     border-bottom: .5px lightgray solid;
 }
 
@@ -140,6 +140,7 @@ li{
     font-size: 16px;
     font-weight: 400;
     color: #080357;
+    padding-left: 1em;
 }
 
 .nav-link:hover {
