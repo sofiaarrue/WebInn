@@ -52,10 +52,10 @@ p {
     border-color: #080357;
     background-color: #F5FF90;
     text-decoration: none;
-    color:#080357;
+    color: #080357;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -95,21 +95,21 @@ li{
 .navbar {
     position: relative;
     background-color: #fff;
-    height: 5vh;
+    height: auto;
     width: 100%;
     top: 0;
     z-index: 500;
-    border-bottom: 1px solid #080357;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-ul {
     height: 90vh;
-    flex-direction: row;
     width: 80%;
     transition: transform 0.4s;
     transform: translateX(-150%);
     background-color: #fff;
-    position: relative;
+    position: absolute;
     top: 2.4em;
     left: 0;
     z-index: 50;
@@ -139,17 +139,17 @@ li{
 
 .nav-link {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     color: #080357;
     padding-left: 1em;
 }
 
 .nav-link:hover {
-    font-weight: 600;
+    color: #FF9F1C;
 }
 
 #active {
-    font-weight: 600;
+    color: #FF9F1C;
 }
 
 .toggle-menu {
@@ -185,7 +185,7 @@ li{
     color: #080357;
 }
 
-.toggle-menu--show{
+.toggle-menu--show {
     z-index: 100;
     opacity: 1;
 }
@@ -205,11 +205,11 @@ li{
         display: none;
     }
 
-    .toggle-menu2{
+    .toggle-menu2 {
         display: none;
     }
 
-    .nav-item i{
+    .nav-item i {
         display: none;
     }
 
@@ -266,18 +266,25 @@ li{
 }
 
 .imgIntro-img {
-    width: 60%;
-    padding-bottom: 1em;
+    width: 50%;
 }
 
 @media screen and (min-width: 768px) {
-
-    .imgIntro {
-        display: flex;
-        justify-content: end;
-        align-items: end;
+    .imgIntro-img {
+        width: 70%;
     }
+}
 
+.textIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgIntro {
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .porQueElegirnos {
@@ -549,7 +556,7 @@ li{
     position: absolute;
 }
 
-.pasosTitle i{
+.pasosTitle i {
     cursor: pointer;
 }
 
@@ -609,7 +616,7 @@ li{
 
 .proyecto__text-container {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
 }
@@ -622,7 +629,7 @@ li{
     }
 
     .img2 {
-        transform: translateX(50%);
+        transform: translateX(55%);
     }
 
     .text2 {
@@ -642,8 +649,8 @@ li{
     width: 50%;
 }
 
-.qs__fondo{
-    background-image:url("../imagenes/Crop_qs__fondo.svg");
+.qs__fondo {
+    background-image: url("../imagenes/Crop_qs__fondo.svg");
     background-size: 100% 30;
     background-repeat: no-repeat;
     margin-top: 3em;
