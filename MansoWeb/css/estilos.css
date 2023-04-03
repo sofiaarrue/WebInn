@@ -448,6 +448,11 @@ li {
     color: #F5FF90;
 }
 
+.footer__ul-box-contacto{
+    display: flex;
+    justify-content: end;
+}
+
 .btn-whatsapp {
     position: fixed;
     right: 5%;
@@ -651,7 +656,7 @@ li {
 
 .qs__fondo {
     background-image: url("../imagenes/Crop_qs__fondo.svg");
-    background-size: 100% 30;
+    background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 3em;
 }
