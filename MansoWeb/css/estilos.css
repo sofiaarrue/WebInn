@@ -521,7 +521,7 @@ li {
 .mdt__div {
     border: solid #D6FFB7 .1em;
     border-radius: 1.5em;
-    height: max-content;
+    height: 80%;
 }
 
 .mdt__num {
