@@ -17,8 +17,8 @@ h1 {
 h2 {
     text-align: center;
     font-size: 36px;
-    line-height: 50px;
     font-weight: bold;
+    line-height: 50px;
 }
 
 h3 {
@@ -36,7 +36,7 @@ h4 {
 p {
     font-weight: 400;
     font-size: 15px;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .btn {
@@ -93,12 +93,13 @@ li{
 /*Menu*/
 
 .navbar {
-    position: fixed;
+    position: sticky;
     background-color: #fff;
     height: 10vh;
     width: 100%;
     top: 0;
     z-index: 500;
+    border-bottom: 1px solid #080357;
 }
 
 .navbar-ul {
@@ -120,12 +121,12 @@ li{
 
 .nav-logo {
     position: absolute;
-    top: -4.5em;
-    left: -2em;
+    top: -9.2em;
+    left: -4em;
 }
 
 .nav-logo img {
-    width: 200px;
+    width: 21em;
 }
 
 .nav-item {
