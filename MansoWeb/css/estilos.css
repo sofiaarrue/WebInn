@@ -93,7 +93,7 @@ li{
 /*Menu*/
 
 .navbar {
-    position: sticky;
+    position: fixed;
     background-color: #fff;
     height: 10vh;
     width: 100%;
@@ -254,6 +254,7 @@ li{
     padding-bottom: 0%;
     margin-bottom: 3em;
     margin-top: 2em;
+    height: 80vh;
 }
 
 .intro h1 {
