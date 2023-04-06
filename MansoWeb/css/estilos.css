@@ -43,13 +43,14 @@ p {
     text-align: center;
     background-color: #F5FF90;
     color: #080357;
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 18px;
+    font-weight: 600;
     padding: 0.5em 1.7em;
     border-radius: .5em;
 }
 
 .btn:hover {
+    background-color: #F5FF90;
     border-color: #080357;
     text-decoration: none;
     color: #080357;
