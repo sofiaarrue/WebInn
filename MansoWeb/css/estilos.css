@@ -50,10 +50,10 @@ p {
 }
 
 .btn:hover {
-    background-color: #F5FF90;
-    border-color: #080357;
+    background-color: #FF9F1C;
     text-decoration: none;
     color: #080357;
+    font-weight: 800;
 }
 
 .btn:active{
@@ -258,7 +258,7 @@ li {
 
 .intro {
     background-color: #080357;
-    padding: 2em 0;
+    padding: 3em 0;
     margin-bottom: 3em;
     margin-top: 2em;
     height: 83vh;
@@ -275,7 +275,7 @@ li {
 }
 
 .imgIntro-img {
-    width: 50%;
+    width: 40%;
 }
 
 @media screen and (min-width: 768px) {
@@ -622,6 +622,10 @@ li {
     margin-top: 2em;
 }
 
+.proyecto__container {
+    margin: 5em 0;
+}
+
 .proyecto__img-container img {
     width: 100%;
 }
@@ -632,6 +636,7 @@ li {
     align-items: center;
     text-align: center;
 }
+
 
 
 @media screen and (min-width: 768px) {
@@ -754,8 +759,8 @@ li {
 
 .img-container {
     background-color: #ffffff;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin: auto;
     border-radius: 100%;
     display: flex;
