@@ -105,11 +105,18 @@ li {
 
 }
 
+.navbar {
+    max-height: 3.5em;
+    display: flex;
+    align-items: center;
+}
+
 .navbar-ul {
     display: flex;
     flex-direction: row;
     position: relative;
     margin-left: auto;
+    align-items: center;
 }
 
 .nav-item {
@@ -122,8 +129,8 @@ li {
     padding: 10px;
 }
 
-.nav-logo {
-    padding-top: 10px;
+.nav-logo img{
+    width: 70%;
 }
 
 .toggle-menu {
@@ -167,7 +174,7 @@ li {
         flex-direction: column;
         width: 100%;
         text-align: center;
-        margin-top: 15%;
+        margin-top: 10%;
         transition: transform 0.2s;
         transform: translateX(-150%);
         background-color: #FEC924;
@@ -183,8 +190,8 @@ li {
 
     .nav-logo {
         position: absolute;
-        top: 2%;
-        left: 38%;
+        top: 15%;
+        left: 40%;
     }
 
     .nav-icons {
