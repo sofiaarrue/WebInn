@@ -167,6 +167,7 @@ li {
         margin-bottom: 0%;
         padding-bottom: 10%;
         min-height: max-content;
+        display: flex;
         align-items: center;
     }
 
