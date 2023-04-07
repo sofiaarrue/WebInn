@@ -298,7 +298,6 @@ li {
 
 .porQueElegirnos {
     margin-top: 4em;
-    margin-bottom: 4em;
     background-color: #F5FF90;
     height: 15em;
     position: relative;
@@ -409,6 +408,7 @@ li {
 
 .newsletter {
     background-color: #E4E4E4;
+    padding: 0 4em;
 }
 
 .newsletter h4 {
@@ -418,14 +418,12 @@ li {
 
 .footer {
     background-color: #080357;
-    margin-top: 7em;
 }
 
 .footer__form-container {
     display: flex;
     justify-content: center;
     position: relative;
-
 }
 
 .footer__form {
