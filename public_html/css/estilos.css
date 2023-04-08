@@ -206,7 +206,6 @@ li {
 }
 
 @media screen and (min-width: 768px) {
-
     .toggle-menu {
         display: none;
     }
@@ -227,11 +226,11 @@ li {
         display: flex;
         align-items: center;
         justify-content: end;
-        margin-top: 0;
         transition: none;
         transform: none;
-        background-color: #fff;
-        position: absolute;
+        position: relative;
+        height: 2em;
+        margin-top: 0;
         top: 0;
         border-radius: 0%;
         height: 10vh;
@@ -278,6 +277,10 @@ li {
 }
 
 @media screen and (min-width: 768px) {
+
+    .intro{
+    height: 90vh;
+    }
 
     .imgIntro-img {
         width: 70%;
@@ -374,7 +377,7 @@ li {
     transition: opacity 1.5s;
     background-color: #E4E4E4;
     border-radius: 1.5em;
-    min-height: 80vh;
+    max-height: max-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -489,8 +492,8 @@ li {
 
 .dw__intro {
     margin-top: 2em;
-    height: 50vh;
-    object-fit: cover;
+    height: 40vh;
+    background-size: 150%;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
     background-image: url("../imagenes/dw__intro.png");
