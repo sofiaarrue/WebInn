@@ -613,13 +613,12 @@ li {
 /* Proyectos */
 
 .proyectos__intro {
-    height: 50vh;
-    object-fit: cover;
+    height: 40vh;
+    background-size: 150%;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
     background-image: url("../imagenes/proyectos__intro.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -676,7 +675,7 @@ li {
     background-image: url("../imagenes/wave.svg");
     background-size: 160%;
     background-repeat: no-repeat;
-    margin-top: 6vh;
+    margin-top: 5vh;
 }
 
 .qs__texto {
@@ -699,9 +698,9 @@ li {
 
 .contacto__intro {
     height: 45vh;
+    background-size: 100%;
     background-image: url("../imagenes/qs__intro.png");
     background-repeat: no-repeat;
-    background-size: 150% 100%;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -724,7 +723,7 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F5FF90;
-    margin: 0 3em 0 3em;
+    margin: 0 2em;
     position: relative;
     top: -3em;
     border-radius: 1em;
