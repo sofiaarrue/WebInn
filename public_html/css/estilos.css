@@ -358,12 +358,11 @@ li {
 
 .slider__container {
     width: 90%;
-    min-height: 65vh;
     margin: 0 auto;
     overflow: hidden;
     display: grid;
     grid-template-columns: 3em 1fr 3em;
-    gap: 1em;
+    gap: .5;
 }
 
 .slider__body {
@@ -382,7 +381,7 @@ li {
 }
 
 .slider__img {
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .slider__body--show {
@@ -699,7 +698,7 @@ li {
 /* Contacto */
 
 .contacto__intro {
-    height: 60vh;
+    height: 45vh;
     background-image: url("../imagenes/qs__intro.png");
     background-repeat: no-repeat;
     background-size: 150% 100%;
