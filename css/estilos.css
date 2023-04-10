@@ -493,7 +493,7 @@ li {
     border-bottom-right-radius: 3em;
     background-image: url("../imagenes/dw__intro.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 160% 100%;
     background-attachment: fixed;
     display: flex;
     align-items: center;
