@@ -467,10 +467,6 @@ li {
     color: #F5FF90;
 }
 
-.footer__ul-box-contacto {
-    display: flex;
-    justify-content: end;
-}
 
 .btn-whatsapp {
     position: fixed;
