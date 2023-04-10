@@ -489,12 +489,11 @@ li {
 .dw__intro {
     margin-top: 2em;
     height: 40vh;
-    background-size: 150%;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
     background-image: url("../imagenes/dw__intro.png");
     background-repeat: no-repeat;
-    background-size: 150% 100%;
+    background-size: 100% 100%;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -613,7 +612,7 @@ li {
 
 .proyectos__intro {
     height: 40vh;
-    background-size: 150%;
+    background-size: 100% 100%;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
     background-image: url("../imagenes/proyectos__intro.png");

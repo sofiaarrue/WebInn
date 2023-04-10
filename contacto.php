@@ -1,3 +1,42 @@
+<?php $pg = "contacto";
+
+if ($_POST) {
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $telefono = $_POST["txtTelefono"];
+    $mensaje = $_POST["txtMensaje"];
+
+
+    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "") {
+
+        // Varios destinatarios
+        $para = "";
+        $titulo = 'Recibiste un mensaje desde tu Web';
+
+        // mensaje
+        $cuerpo = "
+    Nombre: $nombre <br>
+    Correo: $correo <br>
+    Telefono: $telefono <br>
+    Mensaje: $mensaje
+    ";
+
+        // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+        $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+        // Cabeceras adicionales
+        $cabeceras .= 'To: contacto@webinn.host' . "\r\n";
+        $cabeceras .= 'From:' . $correo . "\r\n";
+
+        // Enviarlo
+        //mail($para, $titulo, $cuerpo, $cabeceras);
+        header("Location: confirmacion_envio.php");
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -63,21 +102,21 @@
                         <img src="imagenes/logo1.png" alt="">
                     </div>
                 </div>
-                <form action="contacto.html" class="form">
+                <form action="contacto.html" class="form" method="$_POST">
                     <div class="form__section">
-                        <input type="text" name="txtNombre" class="form__input" placeholder="Nombre" required>
+                        <input type="text" name="txtNombre" id="txtNombre" class="form__input" placeholder="Nombre" required>
                     </div>
                     <div class="form__section">
-                        <input type="email" class="form__input" placeholder="Email" required>
+                        <input type="email" name="txtCorreo" id="txtCorreo" class="form__input" placeholder="Email" required>
                     </div>
                     <div class="form__section">
-                        <input type="tel" class="form__input" placeholder="Teléfono" required>
+                        <input type="tel" name="txtTelefono" id="txtTelefono" class="form__input" placeholder="Teléfono" required>
                     </div>
                     <div class="form__section">
-                        <textarea class="form__input" placeholder="Escriba su mensaje aquí"></textarea>
+                        <textarea class="form__input" name="txtMensaje" id="txtMensaje" placeholder="Escriba su mensaje aquí"></textarea>
                     </div>
                     <div>
-                        <button class="btn">Enviar</button>
+                        <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -87,8 +126,7 @@
     <footer>
         <div class="container-fluid contacto-footer">
             <div class="btn-whatsapp">
-                <a href="https://api.whatsapp.com/send?phone=1122627582" target="_blank"><i
-                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=1122627582" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
             <div class="row footer__box py-4">
                 <div class="col-12 col-md-5 footer__ul-box-contacto m-auto text-center mb-3">
