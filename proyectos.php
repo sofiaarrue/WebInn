@@ -40,13 +40,25 @@
                 </div>
                 <div class="row proyecto__container">
                     <div class="col-12 col-md-8 proyecto__img-container img2 text-center">
-                        <img src="imagenes/img_proyecto2.png" alt="" style="width: 85%;">
+                        <img src="imagenes/img_proyecto2.png" alt="" style="width: 90%;">
                     </div>
                     <div class="col-12 col-md-4 proyecto__text-container text2">
                         <div>
                             <h3>Web clásica</h3>
                             <p>Centrado en la información a comunicar, este diseño tiene como objetivo principal la facilidad de uso, distinguiéndose por su elegancia.</p>
-                            <a href="contacto.html"><button class="btn"><b>Ver proyecto</b></button></a>
+                            <a href="" target="_blank"><button class="btn"><b>Ver proyecto</b></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row proyecto__container">
+                    <div class="col-12 col-md-8 proyecto__img-container text-center">
+                        <img src="imagenes/img_proyecto3.png" alt="" style="width: 90%;">
+                    </div>
+                    <div class="col-12 col-md-4 proyecto__text-container">
+                        <div>
+                            <h3>Web minimalista</h3>
+                            <p>Este estilo se reduce a lo esencial para combinar diseño y funcionalidad de una forma sencilla e inteligente, utilizando sólo los elementos mínimos y básicos.</p>
+                            <a href="" target="_blank"><button class="btn"><b>Ver proyecto</b></button></a>
                         </div>
                     </div>
                 </div>
