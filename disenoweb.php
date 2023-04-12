@@ -1,3 +1,5 @@
+<?php $pg = "disenoWeb"; ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,45 +17,12 @@
 
 <body id="diseñoWeb">
     <header>
-        <nav class="navbar" id="navbar">
-            <div class="mx-3 nav-logo">
-                <img src="imagenes/logo1.png" alt="logo">
-            </div>
-            <ul class="navbar-ul mb-md-0" id="navbar-ul">
-                <li class="nav-item">
-                    <i class="fa-solid fa-house"></i>
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <i class="fa-solid fa-code"></i>
-                    <a class="nav-link" id="active" href="disenoweb.html">Diseño Web</a>
-                </li>
-                <li class="nav-item">
-                    <i class="fa-solid fa-pencil"></i>
-                    <a class="nav-link" href="proyectos.html">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <i class="fa-solid fa-user"></i>
-                    <a class="nav-link" href="quienessomos.html">Quienes somos</a>
-                </li>
-                <li class="nav-item me-4">
-                    <i class="fa-solid fa-envelope"></i>
-                    <a class="nav-link" href="contacto.php">Contacto</a>
-                </li>
-            </ul>
-            <div class="toggle-menu align-items-center" id="toggle-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="toggle-menu2 align-items-center" id="toggle-menu2">
-                <i class="fa-solid fa-xmark"></i>
-            </div>
-        </nav>
-        <script src="js/menu.js"></script>
+        <?php include_once("menu.php"); ?>
     </header>
     <main>
         <section class="dw__intro">
             <div>
-                <h1 class="dw__intro-h1 px-4">Conquista con tu diseño web</h1>
+                <h1 class="dw__intro-h1 px-4">Conquistá con tu diseño web</h1>
             </div>
         </section>
         <section class="my-5">
@@ -201,7 +170,7 @@
                         </div>
                     </div>
                     <div class="col-12 text-center my-2">
-                        <a href="contacto.html"><button class="btn">Quiero comenzar ahora</button></a>
+                        <a href="contacto.php"><button class="btn">Quiero comenzar ahora</button></a>
                     </div>
                     <script src="js/modalidadDeTrabajo.js"></script>
                 </div>
@@ -211,8 +180,7 @@
     <footer>
         <div class="container-fluid footer">
             <div class="btn-whatsapp">
-                <a href="https://api.whatsapp.com/send?phone=1122627582" target="_blank"><i
-                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=1122627582" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 footer__form-container">

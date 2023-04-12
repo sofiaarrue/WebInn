@@ -30,7 +30,7 @@ if ($_POST) {
         $cabeceras .= 'From:' . $correo . "\r\n";
 
         // Enviarlo
-        //mail($para, $titulo, $cuerpo, $cabeceras);
+        mail($para, $titulo, $cuerpo, $cabeceras);
         header("Location: confirmacion_envio.php");
     }
 }
@@ -54,40 +54,7 @@ if ($_POST) {
 
 <body id="contacto">
     <header>
-        <nav class="navbar" id="navbar">
-            <div class="mx-3 nav-logo">
-                <img src="imagenes/logo1.png" alt="logo">
-            </div>
-            <ul class="navbar-ul mb-md-0" id="navbar-ul">
-                <li class="nav-item">
-                    <i class="fa-solid fa-house"></i>
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <i class="fa-solid fa-code"></i>
-                    <a class="nav-link" href="disenoweb.html">Diseño Web</a>
-                </li>
-                <li class="nav-item">
-                    <i class="fa-solid fa-pencil"></i>
-                    <a class="nav-link" href="proyectos.html">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <i class="fa-solid fa-user"></i>
-                    <a class="nav-link" href="quienessomos.html">Quienes somos</a>
-                </li>
-                <li class="nav-item me-4">
-                    <i class="fa-solid fa-envelope"></i>
-                    <a class="nav-link" id="active" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-            <div class="toggle-menu align-items-center" id="toggle-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="toggle-menu2 align-items-center" id="toggle-menu2">
-                <i class="fa-solid fa-xmark"></i>
-            </div>
-        </nav>
-        <script src="js/menu.js"></script>
+        <?php include_once("menu.php"); ?>
     </header>
 
     <main>
@@ -102,7 +69,7 @@ if ($_POST) {
                         <img src="imagenes/logo1.png" alt="">
                     </div>
                 </div>
-                <form action="contacto.html" class="form" method="$_POST">
+                <form action="contacto.php" class="form" method="POST">
                     <div class="form__section">
                         <input type="text" name="txtNombre" id="txtNombre" class="form__input" placeholder="Nombre" required>
                     </div>
