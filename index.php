@@ -126,13 +126,13 @@
                     <div class="slider__body" data-id="2">
                         <div class="text-center p-3 mx-1">
                             <img src="imagenes/nuestrosServicios2.png" class="slider__img mb-4" alt="">
-                            <p><b>Desarrollo web profesional</b></p>
+                            <p><b>Dominio, Hosting y correo corporativo</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="3">
                         <div class="slider__body-itemscontainer text-center p-3 mx-1">
                             <img src="imagenes/nuestrosServicios3.png" class="slider__img mb-5" alt="">
-                            <p><b>Adaptabilidad a todos los dispositivos</b></p>
+                            <p><b>Programación web responsive</b></p>
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);" class="slider__icon" id="next">

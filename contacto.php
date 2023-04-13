@@ -15,11 +15,11 @@ if ($_POST) {
 
         // mensaje
         $cuerpo = "
-    Nombre: $nombre <br>
-    Correo: $correo <br>
-    Telefono: $telefono <br>
-    Mensaje: $mensaje
-    ";
+        Nombre: $nombre <br>
+        Correo: $correo <br>
+        Telefono: $telefono <br>
+        Mensaje: $mensaje
+        ";
 
         // Para enviar un correo HTML, debe establecerse la cabecera Content-type
         $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
@@ -31,7 +31,6 @@ if ($_POST) {
 
         // Enviarlo
         mail($para, $titulo, $cuerpo, $cabeceras);
-    
         header("Location: confirmacion_envio.php");
     }
 }

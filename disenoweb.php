@@ -59,21 +59,21 @@
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-clock mb-3 dw__propiedades-i"></i>
                                     <h4 style="color: #080357;">Rendimiento</h4>
-                                    <p>Carga mucho más rápido gracias al protocolo HTTP/2</p>
+                                    <p>Carga más rápido gracias al protocolo HTTP/2</p>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3 my-2 text-center dw__propiedades-div-container">
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-lock mb-3 dw__propiedades-i"></i>
                                     <h4 style="color: #080357;">Seguridad</h4>
-                                    <p>Conexión segura y cifrada</p>
+                                    <p>Conexión segura y cifrada gracias al certificado SSL</p>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3 my-2 text-center dw__propiedades-div-container">
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-language mb-3 dw__propiedades-i"></i>
-                                    <h4 style="color: #080357;">Multi Idioma</h4>
-                                    <p>Traducción a los diversos idiomas</p>
+                                    <h4 style="color: #080357;">Administración de contenidos</h4>
+                                    <p>Mantenimiento mensual del contenido de tu web</p>
                                 </div>
                             </div>
                         </div>
@@ -121,8 +121,7 @@
                                 </div>
                                 <div class="pasosP" id="pasosP2">
                                     <p>Los diseños se basan en la <b>imagen corporativa</b> de nuestros clientes.
-                                        Navegar por el sitio web será <b>intuitivo</b> y generará el deseo de alojarse
-                                        en sus instalaciones.
+                                        Navegar por el sitio web será <b>intuitivo</b> y generará el deseo de interactuar.
                                         Diseñamos sitios <b>responsive</b>, <b>atractivos</b> y <b>user-friendly</b>.
                                     </p>
                                     <i class="fa-solid fa-angles-up px-3 pb-2" id="toggle-up2"></i>
