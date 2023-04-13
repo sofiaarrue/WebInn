@@ -155,7 +155,7 @@
                     <div class="col-12">
                         <img src="imagenes/Mnaranja.png" alt="" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
-                            <h2>El cambio que llevará a tu hospedaje al siguiente nivel</h2>
+                            <h2>El cambio que llevará a tu negocio al siguiente nivel</h2>
                         </div>
                         <img src="imagenes/Mazul.png" alt="" class="Mazul">
                     </div>

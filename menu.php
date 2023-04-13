@@ -1,6 +1,6 @@
 <nav class="navbar" id="navbar">
     <div class="mx-3 nav-logo">
-        <img src="imagenes/logo1.png" alt="logo">
+        <img src="imagenes/Logo1.png" alt="logo">
     </div>
     <ul class="navbar-ul mb-md-0" id="navbar-ul">
         <li class="nav-item">

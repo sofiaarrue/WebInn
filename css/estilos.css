@@ -133,12 +133,12 @@ li {
 
 .nav-logo {
     position: absolute;
-    top: -8.3em;
-    left: -4em;
+    top: -2.6em;
+    left: .3em;
 }
 
 .nav-logo img {
-    width: 20em;
+    width: 9em;
 }
 
 .nav-item {
