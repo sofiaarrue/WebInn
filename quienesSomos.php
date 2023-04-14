@@ -52,7 +52,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section style="margin-bottom: 6em;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 qs__texto qs__texto2">

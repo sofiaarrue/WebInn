@@ -179,7 +179,7 @@
                         <a href="proyectos.php"><img src="imagenes/img_proyecto3.png" alt=""></a>
                     </div>
                     <div class="col-12 text-center">
-                        <a href="disenoweb.php"><button class="btn">Explorar los proyectos</button></a>
+                        <a href="proyectos.php"><button class="btn">Explorar los proyectos</button></a>
                     </div>
                 </div>
             </div>

@@ -169,13 +169,13 @@
                         </div>
                     </div>
                     <div class="col-12 text-center my-2">
-                        <a href="contacto.php"><button class="btn">Quiero comenzar ahora</button></a>
+                        <a href="contacto.php"><button class="btn">Presupuestar mi negocio</button></a>
                     </div>
                     <script src="js/modalidadDeTrabajo.js"></script>
                 </div>
             </div>
         </section>
-        <section class="porQueElegirnos mb-0">
+        <section class="porQueElegirnos mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -189,7 +189,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer style="margin-top: 7em;">
         <?php include_once("footer.php"); ?>
     </footer>
 </body>

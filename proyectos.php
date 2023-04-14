@@ -62,8 +62,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row proyecto__container">
-                    <div class="col-12">
+                <div class="row">
+                    <div class="col-12" style="margin-bottom: 3em;">
                         <h2>Y vos, ¿ya sabés cuál es el mejor diseño para tu alojamiento?</h2>
                     </div>
                 </div>
