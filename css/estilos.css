@@ -413,11 +413,12 @@ li {
 
 .proyecto__img-index img{
     width: 20em;
+    margin: 1em 0;
 }
 
 .newsletter {
     background-color: #E4E4E4;
-    padding: 7em 0;
+    padding: 5em 0;
 }
 
 .newsletter h4 {

@@ -162,22 +162,24 @@
                 </div>
             </div>
         </section>
-        <section class="proyectos__main my-5">
+        <section class="proyectos">
             <div class="container">
+
                 <div class="row proyecto__container">
-                    <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <img src="imagenes/img_proyecto1.png" alt="">
+                    <div class="col-12 my-4">
+                        <h3 class="text-center py-2">Algunos de nuestros proyectos recientes</h3>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <img src="imagenes/img_proyecto2.png" alt="">
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto1.png" alt=""></a>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <img src="imagenes/img_proyecto3.png" alt="">
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto2.png" alt=""></a>
                     </div>
-                </div>
-                <div class="row proyecto__container">
-                    <div class="col-12">
-                        
+                    <div class="col-12 col-md-4 proyecto__img-index text-center">
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto3.png" alt=""></a>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a href="disenoweb.php"><button class="btn">Explorar los proyectos</button></a>
                     </div>
                 </div>
             </div>
