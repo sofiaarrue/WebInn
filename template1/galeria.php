@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="row mx-auto">
-                        <div class="col-12 pt-2">
+                        <div class="col-12 pt-2" style="display: flex; align-items: center;">
                             <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3">
                             <label for="txtCheckbox" style="font-weight: 400; font-size: 15px; color: #877560;"> Quiero
                                 recibir

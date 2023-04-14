@@ -47,10 +47,9 @@ mail($para, $titulo, $cuerpo, $cabeceras);
                 <div class="col-12 col-md-6 text-center">
                     <input type="email" id="txtCorreo" name="txtCorreo" class="form-control" placeholder="Correo electrónico *" required>
                 </div>
-                <div class="col-12">
+                <div class="col-12" style="display: flex; align-items:center;">
                     <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3" required>
-                    <label for="txtCheckbox" style="font-size: 18px; line-height: 30px; color: #877560;"> Quiero
-                        recibir noticias de Flexy Webs</label>
+                    <label for="txtCheckbox" style="font-size: 15px; color: #877560;"> Quiero recibir noticias de Flexy Webs</label>
                 </div>
                 <div class="col-12 my-3 text-center">
                     <button type="submit" class="btn my-0">Subscribirme</button>
