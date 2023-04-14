@@ -29,7 +29,7 @@ if ($_POST) {
         // Enviarlo
         mail($para, $titulo, $cuerpo, $cabeceras);
     }
-}?>
+} ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -43,8 +43,8 @@ if ($_POST) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <meta name="description" content="WebInn provee páginas web especializadas en hospedaje, como hoteles, resorts, complejos turísticos, aparts, campings. También provee un servicio de Newsletter.">
-    <title>WebInn | Páginas Web para alojamientos</title>
+    <meta name="description" content="flexywebs provee páginas web especializadas en hospedaje, como hoteles, resorts, complejos turísticos, aparts, campings. También provee un servicio de Newsletter.">
+    <title>Flexy Webs | Páginas Web para alojamientos</title>
 </head>
 
 <body id="inicio">
@@ -57,10 +57,10 @@ if ($_POST) {
                 <div class="row textIntro">
                     <div class="col-12 col-md-8 mb-3">
                         <h1 class="mb-4">
-                            Crea tu página Web de la mano de profesionales
+                            Creación de sitios web personalizados para tu alojamiento
                         </h1>
                         <h3 class="mb-4" style="color:#fff;">
-                            Programadores y diseñadores web.
+                            Destaca en línea y atrae a más huéspedes
                         </h3>
                         <div class="text-center my-2">
                             <a href="disenoweb.php"><button class="btn"><b>Comenzá ahora</b></button></a>

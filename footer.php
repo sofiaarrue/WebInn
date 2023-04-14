@@ -44,7 +44,11 @@ if ($_POST) {
     </div>
     <div class="row">
         <div class="col-12 col-md-6 footer__form-container">
-           <form action="<?php if ($pg == "inicio") { echo "index.php";} else {echo $pg . ".php";}?>" method="post" class="footer__form mx-3 p-3">
+            <form action="<?php if ($pg == "inicio") {
+                                echo "index.php";
+                            } else {
+                                echo $pg . ".php";
+                            } ?>" method="post" class="footer__form mx-3 p-3">
                 <h3 class="text-center">¿Hablamos?</h3>
                 <div class="form__section my-2">
                     <input type="text" name="txtNombre" id="txtNombre" class="form__input" placeholder="Nombre" required>
@@ -85,8 +89,8 @@ if ($_POST) {
                     </ul>
                 </div>
                 <div class="col-12 col-md-8 my-auto text-center">
-                    <p><i class="fa-solid fa-phone footer__i p-1"></i> <b>Tel:</b> +54 11 2262-7582</p>
-                    <p><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email:</b> info@mansoweb.com </p>
+                    <p><a href="https://api.whatsapp.com/send?phone=91122627582" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-phone footer__i p-1"></i> <b>Tel:</b> +54 9 11 2262-7582</p></a>
+                    <p><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email:</b> contacto@webinn.host </p>
                 </div>
             </div>
         </div>
