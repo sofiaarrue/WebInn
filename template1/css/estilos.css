@@ -162,25 +162,24 @@ li {
     .navbar {
         position: relative;
         background-color: #fff;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        padding-bottom: 10%;
-        min-height: max-content;
+        height: 2em;
+        width: 100%;
+        z-index: 500;
         display: flex;
         align-items: center;
     }
 
     .navbar-ul {
-        flex-direction: column;
         width: 100%;
-        text-align: center;
-        margin-top: 10%;
-        transition: transform 0.2s;
+        transition: transform 0.4s;
         transform: translateX(-150%);
+        position: absolute;
+        margin-top: 12%;
+        top: 10%;
+        left: 0;
+        text-align: center;
         background-color: #FEC924;
         color: #fff;
-        position: absolute;
-        top: 12%;
         z-index: 50;
     }
 
@@ -217,19 +216,44 @@ li {
     }
 
     .toggle-menu {
-        display: inline-block;
         height: auto;
-        position: relative;
+        position: absolute;
+        top: 25%;
+        left: 90%;
         z-index: 10;
-        top: 1%;
-        left: 3.5%;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .toggle-menu2 {
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 90%;
+        z-index: 0;
+        opacity: 0;
         padding: 10px;
         cursor: pointer;
     }
 
     .toggle-menu i {
-        font-size: 30px;
+        font-size: 25px;
         color: #18C5D7;
+    }
+
+    .toggle-menu2 i {
+        font-size: 25px;
+        color: #18C5D7;
+    }
+
+    .toggle-menu--show {
+        z-index: 100;
+        opacity: 1;
+    }
+
+    .toggle-menu--hidden {
+        z-index: 0;
+        opacity: 0;
     }
 }
 
@@ -462,9 +486,10 @@ li {
 /*index responsivo*/
 @media screen and (max-width: 990px) {
 
-#bienvenidos {
-    background-size: 150% 100%;
-}
+    #bienvenidos {
+        background-size: 150% 100%;
+    }
+
     .grid-item b {
         font-size: 10px;
     }
