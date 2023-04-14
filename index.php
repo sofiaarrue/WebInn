@@ -1,4 +1,36 @@
-<?php $pg = "inicio"; ?>
+<?php $pg = "inicio";
+
+if ($_POST) {
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $check  = $_POST["txtCheckbox"];
+
+
+    if ($nombre != "" && $correo != "" && $check != "") {
+
+        // Varios destinatarios
+        $para = "";
+        $titulo = $nombre . 'se subscribió a tu Newsletter';
+
+        // mensaje
+        $cuerpo = "
+        Nombre: $nombre <br>
+        Correo: $correo <br>
+        ";
+
+        // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+        $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+        // Cabeceras adicionales
+        $cabeceras .= 'To: contacto@webinn.host' . "\r\n";
+        $cabeceras .= 'From:' . $correo . "\r\n";
+
+        // Enviarlo
+        mail($para, $titulo, $cuerpo, $cabeceras);
+        header("Location: confirmacion_envio.php");
+    }
+}?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -170,13 +202,13 @@
                         <h3 class="text-center py-2">Algunos de nuestros proyectos recientes</h3>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto1.png" alt=""></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto1.png" alt="" style="width: 100%;"></a>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto2.png" alt=""></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto2.png" alt="" style="width: 97%;"></a>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto3.png" alt=""></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto3.png" alt="" style="width: 94%;"></a>
                     </div>
                     <div class="col-12 text-center">
                         <a href="proyectos.php"><button class="btn">Explorar los proyectos</button></a>
@@ -191,18 +223,18 @@
                         <h3 class="text-center py-2">Enterate de todas nuestras ofertas y novedades</h3>
                     </div>
                 </div>
-                <form action="" class="pt-2">
+                <form action="index.php" method="post" class="pt-2">
                     <div class="row mx-auto">
                         <div class="col-12 col-md-6 my-1 text-center">
                             <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Nombre *" required>
                         </div>
                         <div class="col-12 col-md-6 text-center">
-                            <input type="email" id="txtEmail" name="txtEmail" class="form-control" placeholder="Correo electrónico *" required>
+                            <input type="email" id="txtCorreo" name="txtCorreo" class="form-control" placeholder="Correo electrónico *" required>
                         </div>
                         <div class="col-12">
                             <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3" required>
                             <label for="txtCheckbox" style="font-size: 18px; line-height: 30px; color: #877560;"> Quiero
-                                recibir noticias de WebInn</label>
+                                recibir noticias de Flexy Webs</label>
                         </div>
                         <div class="col-12 my-3 text-center">
                             <button type="submit" class="btn my-0">Subscribirme</button>
