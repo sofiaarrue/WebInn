@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
-    
+
 </head>
 
 <body id="contacto" class="d-flex flex-column h-100">
@@ -30,7 +30,7 @@
     </main>
 
     <footer>
-
+        <?php include_once("footer.php"); ?>
     </footer>
 
 </body>

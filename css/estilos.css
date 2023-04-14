@@ -411,6 +411,10 @@ li {
     object-fit: cover;
 }
 
+.proyecto__img-index img{
+    width: 20em;
+}
+
 .newsletter {
     background-color: #E4E4E4;
     padding: 7em 0;
