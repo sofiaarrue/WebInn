@@ -59,7 +59,7 @@ if ($_POST) {
                     <textarea class="form__input" name="txtMensaje" id="txtMensaje" placeholder="Escriba su mensaje quí"></textarea>
                 </div>
                 <div class="text-center">
-                    <button class="btn">Enviar</button>
+                    <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>
                 </div>
             </form>
         </div>
