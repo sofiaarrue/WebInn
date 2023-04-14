@@ -25,24 +25,6 @@
                 <h1 class="dw__intro-h1 px-4">Conquistá con tu diseño web</h1>
             </div>
         </section>
-        <section class="my-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-5 px-4">
-                        <h2>Diseño, tecnología y estrategia</h2>
-                    </div>
-                    <div class="col-12 col-md-7 px-4">
-                        <p>Tu página web es la puerta de entrada al mundo, por lo que su <b>funcionalidad</b> y
-                            <b>apariencia visual</b> son factores determinantes.<br>
-                            Nuestros proyectos estan diseñados para aumentar las visitas a tu sitio web y, de esa
-                            manera, la <b>conversion</b>. <br>
-                            Nos encargamos de que la experiencia del usuario (UX) sea óptima, basándonos en <b>tus
-                                objetivos</b>.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="dw__propiedades">
             <div class="container">
                 <div class="row">
@@ -77,6 +59,24 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 px-4 my-2">
+                        <h2>Diseño, tecnología y estrategia</h2>
+                    </div>
+                    <div class="col-12 col-md-7 px-4">
+                        <p>Tu página web es la puerta de entrada al mundo, por lo que su <b>funcionalidad</b> y
+                            <b>apariencia visual</b> son factores determinantes.<br>
+                            Nuestros proyectos estan diseñados para aumentar las visitas a tu sitio web y, de esa
+                            manera, la <b>conversion</b>. <br>
+                            Nos encargamos de que la experiencia del usuario (UX) sea óptima, basándonos en <b>tus
+                                objetivos</b>.
+                        </p>
                     </div>
                 </div>
             </div>

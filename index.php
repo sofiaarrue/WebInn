@@ -201,13 +201,13 @@ if ($_POST) {
                         <h3 class="text-center py-2">Algunos de nuestros proyectos recientes</h3>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto1.png" alt="Proyecto de Flexy Webs" style="width: 100%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto1-hd.png" alt="Proyecto de Flexy Webs" style="width: 100%;"></a>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto2.png" alt="Proyecto de Flexy Webs" style="width: 97%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto2-hd.png" alt="Proyecto de Flexy Webs" style="width: 97%;"></a>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto3.png" alt="Proyecto de Flexy Webs" style="width: 94%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto3-hd.png" alt="Proyecto de Flexy Webs" style="width: 94%;"></a>
                     </div>
                     <div class="col-12 text-center">
                         <a href="proyectos.php"><button class="btn">Explorar los proyectos</button></a>
