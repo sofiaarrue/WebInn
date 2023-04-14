@@ -1,3 +1,5 @@
+<?php $pg = "unidades" ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,42 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar" id="navbar">
-            <div class="toggle-menu" id="toggle-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="mx-3 nav-logo">
-                <img src="imagenes/logo.png" alt="logo">
-            </div>
-            <ul class="navbar-ul mb-2 mb-md-0" id="navbar-ul">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="active" href="unidades.html">Unidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ubicacion.html">Ubicación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galería</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-            <div class="nav-icons">
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram telefono"
-                        style="font-size: 28px;"></i></a>
-                <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook telefono"
-                        style="font-size: 28px;"></i></a>
-            </div>
-        </nav>
-        <script src="js/scripts.js"></script>
+        <?php include_once("menu-template1.php"); ?>
     </header>
 
     <main>
@@ -121,7 +88,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="apart2__caja" >
+                        <div class="apart2__caja">
                             <h3 style="color: #fff;">Apartamento doble</h3>
                             <p style="color: #fff;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sunt odit similique,
                                 odio atque vel id maiores voluptatem soluta officia quam aut velit libero hic vero
@@ -141,24 +108,16 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
-                        <img class="mas-sobre-nosotros__button-container-img"
-                            src="imagenes/sasha-kaunas-xEaAoizNFV8-unsplash (1).jpg" alt="habitacion"
-                            style="width: 343px; height: 287px;">
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/sasha-kaunas-xEaAoizNFV8-unsplash (1).jpg" alt="habitacion" style="width: 343px; height: 287px;">
                         <a href="index.html"><button class="mas-sobre-nosotros__button-container-a">Inicio</button></a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
-                        <img class="mas-sobre-nosotros__button-container-img"
-                            src="imagenes/tholaal-mohamed-8sKTHeGgrUM-unsplash.png" alt=""
-                            style="width: 343px; height: 287px;">
-                        <a href="galeria.html"><button
-                                class="mas-sobre-nosotros__button-container-a">Galería</button></a>
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/tholaal-mohamed-8sKTHeGgrUM-unsplash.png" alt="" style="width: 343px; height: 287px;">
+                        <a href="galeria.html"><button class="mas-sobre-nosotros__button-container-a">Galería</button></a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
-                        <img class="mas-sobre-nosotros__button-container-img"
-                            src="imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png" alt=""
-                            style="width: 343px; height: 287px;">
-                        <a href="ubicacion.html"><button
-                                class="mas-sobre-nosotros__button-container-a">Ubicación</button></a>
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png" alt="" style="width: 343px; height: 287px;">
+                        <a href="ubicacion.html"><button class="mas-sobre-nosotros__button-container-a">Ubicación</button></a>
                     </div>
                 </div>
             </div>
@@ -174,12 +133,10 @@
                 <form action="" class="pt-2">
                     <div class="row mx-auto">
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
-                            <input type="text" id="txtNombre" name="txtNombre" class="form-control"
-                                placeholder="Nombre *">
+                            <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Nombre *">
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
-                            <input type="email" id="txtEmail" name="txtEmail" class="form-control"
-                                placeholder="Correo electrónico *">
+                            <input type="email" id="txtEmail" name="txtEmail" class="form-control" placeholder="Correo electrónico *">
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
                             <button type="submit" class="btn">Subscribirme</button>
@@ -188,8 +145,7 @@
                     <div class="row mx-auto">
                         <div class="col-12 pt-2">
                             <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3">
-                            <label for="txtCheckbox"
-                                style="font-weight: 400; font-size: 18px; line-height: 30px; color: #877560;"> Quiero
+                            <label for="txtCheckbox" style="font-weight: 400; font-size: 18px; line-height: 30px; color: #877560;"> Quiero
                                 recibir noticias de Apartamentos Lorem</label>
                         </div>
                     </div>

@@ -1,3 +1,5 @@
+<?php $pg = "inicio" ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -13,46 +15,8 @@
 </head>
 
 <body id="inicio">
-    <header class>
-        <nav class="navbar" id="navbar">
-            <div class="toggle-menu align-items-center" id="toggle-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="toggle-menu2 align-items-center" id="toggle-menu2">
-                <i class="fa-solid fa-xmark"></i>
-            </div>
-            <div class="mx-3 nav-logo">
-                <img src="imagenes/logo.png" alt="logo">
-            </div>
-            <ul class="navbar-ul mb-2 mb-md-0" id="navbar-ul">
-                <li class="nav-item">
-                    <a class="nav-link" id="active" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="unidades.html">Unidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ubicacion.html">Ubicación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galería</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-            <div class="nav-icons">
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram telefono"
-                        style="font-size: 28px;"></i></a>
-                <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook telefono"
-                        style="font-size: 28px;"></i></a>
-            </div>
-        </nav>
-        <script src="js/scripts.js"></script>
+    <header>
+        <?php include_once("menu-template1.php"); ?>
     </header>
     <main>
         <section id="bienvenidos">
@@ -107,24 +71,19 @@
                 </div>
                 <section class="slider">
                     <div class="slider__container container">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(0, 0, 0, 1);" class="slider__icon" id="before">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);" class="slider__icon" id="before">
                             <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
                         </svg>
                         <div class="slider__body slider__body--show" data-id="1">
-                            <img src="imagenes/aparts.jpg"
-                                class="slider__img mb-5" alt="">
+                            <img src="imagenes/aparts.jpg" class="slider__img mb-5" alt="">
                         </div>
                         <div class="slider__body" data-id="2">
-                            <img src="imagenes/hotelprueba2.avif"
-                                class="slider__img mb-4" alt="">
+                            <img src="imagenes/hotelprueba2.avif" class="slider__img mb-4" alt="">
                         </div>
                         <div class="slider__body" data-id="3">
-                            <img src="imagenes/fermin-rodriguez-penelas-MecrxdAPD1E-unsplash 1.png"
-                                class="slider__img mb-5" alt="">
+                            <img src="imagenes/fermin-rodriguez-penelas-MecrxdAPD1E-unsplash 1.png" class="slider__img mb-5" alt="">
                         </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(0, 0, 0, 1);" class="slider__icon" id="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);" class="slider__icon" id="next">
                             <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
                         </svg>
                     </div>
@@ -172,23 +131,16 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
-                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/aparts.jpg" alt="habitacion"
-                            style="width: 343px; height: 287px;">
-                        <a href="unidades.html"><button
-                                class="mas-sobre-nosotros__button-container-a">Unidades</button></a>
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/aparts.jpg" alt="habitacion" style="width: 343px; height: 287px;">
+                        <a href="unidades.html"><button class="mas-sobre-nosotros__button-container-a">Unidades</button></a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
-                        <img class="mas-sobre-nosotros__button-container-img"
-                            src="imagenes/tholaal-mohamed-8sKTHeGgrUM-unsplash.png" alt=""
-                            style="width: 343px; height: 287px;">
-                        <a href="galeria.html"><button
-                                class="mas-sobre-nosotros__button-container-a">Galería</button></a>
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/tholaal-mohamed-8sKTHeGgrUM-unsplash.png" alt="" style="width: 343px; height: 287px;">
+                        <a href="galeria.html"><button class="mas-sobre-nosotros__button-container-a">Galería</button></a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
-                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/staff hotel.png" alt=""
-                            style="width: 343px; height: 287px;">
-                        <a href="servicios.html"><button
-                                class="mas-sobre-nosotros__button-container-a">Servicios</button></a>
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/staff hotel.png" alt="" style="width: 343px; height: 287px;">
+                        <a href="servicios.html"><button class="mas-sobre-nosotros__button-container-a">Servicios</button></a>
                     </div>
                 </div>
             </div>
@@ -204,12 +156,10 @@
                 <form action="" class="pt-2">
                     <div class="row mx-auto">
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
-                            <input type="text" id="txtNombre" name="txtNombre" class="form-control"
-                                placeholder="Nombre *">
+                            <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Nombre *">
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
-                            <input type="email" id="txtEmail" name="txtEmail" class="form-control"
-                                placeholder="Correo electrónico *">
+                            <input type="email" id="txtEmail" name="txtEmail" class="form-control" placeholder="Correo electrónico *">
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
                             <button type="submit" class="btn">Subscribirme</button>
@@ -218,8 +168,7 @@
                     <div class="row mx-auto">
                         <div class="col-12 pt-2">
                             <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3">
-                            <label for="txtCheckbox"
-                                style="font-weight: 400; font-size: 18px; line-height: 30px; color: #877560;"> Quiero
+                            <label for="txtCheckbox" style="font-weight: 400; font-size: 18px; line-height: 30px; color: #877560;"> Quiero
                                 recibir noticias de Apartamentos Lorem</label>
                         </div>
                     </div>
@@ -230,8 +179,7 @@
     <footer id="footer" class="mt-4 mb-5">
         <div class="container">
             <div class="btn-whatsapp">
-                <a href="https://api.whatsapp.com/send?phone=1122627582" target="_blank"><i
-                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=1122627582" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
             <div class="row">
                 <div class="col-12 footer__box">

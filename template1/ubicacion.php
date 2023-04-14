@@ -1,3 +1,5 @@
+<?php $pg = "ubicacion" ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,42 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar" id="navbar">
-            <div class="toggle-menu" id="toggle-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="mx-3 nav-logo">
-                <img src="imagenes/logo.png" alt="logo">
-            </div>
-            <ul class="navbar-ul mb-2 mb-md-0" id="navbar-ul">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="unidades.html">Unidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="active" href="ubicacion.html">Ubicación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galería</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-            <div class="nav-icons">
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram telefono"
-                        style="font-size: 28px;"></i></a>
-                <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook telefono"
-                        style="font-size: 28px;"></i></a>
-            </div>
-        </nav>
-        <script src="js/scripts.js"></script>
+        <?php include_once("menu-template1.php"); ?>
     </header>
     <main>
         <section id="ubicacion-intro">
@@ -122,8 +89,7 @@
             <div class="container-fluid mt-3 p-4 ubicacion__acts-cercanas-fondo">
                 <div class="row">
                     <div class="col-12 col-md-6 my-2 ubicacion__acts-cercanas-img">
-                        <img src="imagenes/fermin-rodriguez-penelas-MecrxdAPD1E-unsplash 1.png" alt="playa2"
-                            style="width: 27em;">
+                        <img src="imagenes/fermin-rodriguez-penelas-MecrxdAPD1E-unsplash 1.png" alt="playa2" style="width: 27em;">
                     </div>
                     <div class="col-12 col-md-6 text-center my-auto">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti excepturi ullam ex
@@ -141,9 +107,8 @@
                             dolorem eaque
                             nihil.</p>
                     </div>
-                    <div class="col-12 col-md-6 my-2 ubicacion__acts-cercanas-img" >
-                        <img style=" width: 27em;" class="img-float"
-                            src="imagenes/fermin-rodriguez-penelas-hiMLzO_8Nz4-unsplash 1.png" alt="playa3">
+                    <div class="col-12 col-md-6 my-2 ubicacion__acts-cercanas-img">
+                        <img style=" width: 27em;" class="img-float" src="imagenes/fermin-rodriguez-penelas-hiMLzO_8Nz4-unsplash 1.png" alt="playa3">
                     </div>
                 </div>
             </div>
@@ -152,9 +117,7 @@
             <div class="container py-5">
                 <div class="row">
                     <div class="col-12 text-center ubicacion__mapa-div">
-                        <a href="https://www.google.com.ar/maps" target="_blank"><img
-                                class="text-center ubicacion__mapa-img" style="width: 100%;"
-                                src="imagenes/googlemaps.png" alt="googlemaps"></a>
+                        <a href="https://www.google.com.ar/maps" target="_blank"><img class="text-center ubicacion__mapa-img" style="width: 100%;" src="imagenes/googlemaps.png" alt="googlemaps"></a>
                     </div>
                 </div>
             </div>
@@ -168,23 +131,16 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-4 mas-sobre-nosotros__button-container mx-auto my-3">
-                        <img class="mas-sobre-nosotros__button-container-img"
-                            src="imagenes/sasha-kaunas-xEaAoizNFV8-unsplash (1).jpg" alt="habitacion"
-                            style="width: 343px; height: 287px;">
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/sasha-kaunas-xEaAoizNFV8-unsplash (1).jpg" alt="habitacion" style="width: 343px; height: 287px;">
                         <a href="index.html"><button class=" mas-sobre-nosotros__button-container-a">Inicio</button></a>
                     </div>
                     <div class="col-12 col-md-4 mas-sobre-nosotros__button-container mx-auto my-3">
-                        <img class="mas-sobre-nosotros__button-container-img"
-                            src="imagenes/tholaal-mohamed-8sKTHeGgrUM-unsplash.png" alt=""
-                            style="width: 343px; height: 287px;">
-                        <a href="galeria.html"><button
-                                class=" mas-sobre-nosotros__button-container-a">Galería</button></a>
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/tholaal-mohamed-8sKTHeGgrUM-unsplash.png" alt="" style="width: 343px; height: 287px;">
+                        <a href="galeria.html"><button class=" mas-sobre-nosotros__button-container-a">Galería</button></a>
                     </div>
                     <div class="col-12 col-md-4 mas-sobre-nosotros__button-container mx-auto my-3">
-                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/staff hotel.png" alt=""
-                            style="width: 343px; height: 287px;">
-                        <a href="servicios.html"><button
-                                class=" mas-sobre-nosotros__button-container-a">Servicios</button></a>
+                        <img class="mas-sobre-nosotros__button-container-img" src="imagenes/staff hotel.png" alt="" style="width: 343px; height: 287px;">
+                        <a href="servicios.html"><button class=" mas-sobre-nosotros__button-container-a">Servicios</button></a>
                     </div>
                 </div>
             </div>
@@ -200,12 +156,10 @@
                 <form action="" class="pt-2">
                     <div class="row mx-auto">
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
-                            <input type="text" id="txtNombre" name="txtNombre" class="form-control"
-                                placeholder="Nombre *">
+                            <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Nombre *">
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
-                            <input type="email" id="txtEmail" name="txtEmail" class="form-control"
-                                placeholder="Correo electrónico *">
+                            <input type="email" id="txtEmail" name="txtEmail" class="form-control" placeholder="Correo electrónico *">
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 my-1 text-center">
                             <button type="submit" class="btn">Subscribirme</button>
@@ -214,8 +168,7 @@
                     <div class="row mx-auto">
                         <div class="col-12 pt-2">
                             <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3">
-                            <label for="txtCheckbox"
-                                style="font-weight: 400; font-size: 18px; line-height: 30px; color: #877560;"> Quiero
+                            <label for="txtCheckbox" style="font-weight: 400; font-size: 18px; line-height: 30px; color: #877560;"> Quiero
                                 recibir noticias de Apartamentos Lorem</label>
                         </div>
                     </div>

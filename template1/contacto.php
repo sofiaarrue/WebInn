@@ -1,3 +1,5 @@
+<?php $pg = "contacto" ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,42 +16,7 @@
 
 <body id="contacto">
     <header>
-        <nav class="navbar" id="navbar">
-            <div class="toggle-menu" id="toggle-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="mx-3 nav-logo">
-                <img src="imagenes/logo.png" alt="logo">
-            </div>
-            <ul class="navbar-ul mb-2 mb-md-0" id="navbar-ul">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="unidades.html">Unidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ubicacion.html">Ubicación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galería</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="active" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-            <div class="nav-icons">
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram telefono"
-                        style="font-size: 28px;"></i></a>
-                <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook telefono"
-                        style="font-size: 28px;"></i></a>
-            </div>
-        </nav>
-        <script src="js/scripts.js"></script>
+        <?php include_once("menu-template1.php"); ?>
     </header>
     <main>
         <section class="contact-form">
@@ -72,12 +39,10 @@
                         <input type="tel" class="form__input" placeholder="Teléfono" required>
                     </div>
                     <div class="form__section">
-                        <input type="text" class="form__input" onfocus="(this.type='date')"
-                            placeholder="Fecha de entrada" required>
+                        <input type="text" class="form__input" onfocus="(this.type='date')" placeholder="Fecha de entrada" required>
                     </div>
                     <div class="form__section">
-                        <input type="text" class="form__input" onfocus="(this.type='date')"
-                            placeholder="Fecha de salida" required>
+                        <input type="text" class="form__input" onfocus="(this.type='date')" placeholder="Fecha de salida" required>
                     </div>
                     <div class="form__section">
                         <input type="number" class="form__input" placeholder="Cantidad de adultos" required>
