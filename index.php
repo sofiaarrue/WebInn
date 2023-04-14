@@ -67,7 +67,7 @@ if ($_POST) {
                         </div>
                     </div>
                     <div class="col-12 col-md-4 text-center imgIntro">
-                        <img src="imagenes/imgIntro.png" alt="" class="imgIntro-img">
+                        <img src="imagenes/imgIntro.png" alt="Mano sosteniendo bombilla de luz, representando una idea" class="imgIntro-img">
                     </div>
                 </div>
             </div>
@@ -150,19 +150,19 @@ if ($_POST) {
                     </svg>
                     <div class="slider__body slider__body--show" data-id="1">
                         <div class="slider__body-itemscontainer text-center p-1 mx-1">
-                            <img src="imagenes/nuestrosServicios.png" class="slider__img mb-5" alt="">
+                            <img src="imagenes/nuestrosServicios.png" class="slider__img mb-5" alt="Ilustración: dos mujeres diseñando">
                             <p><b>Diseño exclusivo y personalizado</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="2">
                         <div class="text-center p-3 mx-1">
-                            <img src="imagenes/nuestrosServicios2.png" class="slider__img mb-4" alt="">
+                            <img src="imagenes/nuestrosServicios2.png" class="slider__img mb-4" alt="Ilustración: mujer eligiendo contenido de una pantalla">
                             <p><b>Dominio, Hosting y correo corporativo</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="3">
                         <div class="slider__body-itemscontainer text-center p-3 mx-1">
-                            <img src="imagenes/nuestrosServicios3.png" class="slider__img mb-5" alt="">
+                            <img src="imagenes/nuestrosServicios3.png" class="slider__img mb-5" alt="Ilustración: adaptabilidad a desktop, tablet y mobile">
                             <p><b>Programación web responsive</b></p>
                         </div>
                     </div>
@@ -184,11 +184,11 @@ if ($_POST) {
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img src="imagenes/Mnaranja.png" alt="" class="Mnaranja">
+                        <img src="imagenes/Mnaranja.png" alt="web" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>Da a tu alojamiento la presencia en línea que se merece</h2>
                         </div>
-                        <img src="imagenes/Mazul.png" alt="" class="Mazul">
+                        <img src="imagenes/Mazul.png" alt="web" class="Mazul">
                     </div>
                 </div>
             </div>
@@ -201,13 +201,13 @@ if ($_POST) {
                         <h3 class="text-center py-2">Algunos de nuestros proyectos recientes</h3>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto1.png" alt="" style="width: 100%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto1.png" alt="Proyecto de Flexy Webs" style="width: 100%;"></a>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto2.png" alt="" style="width: 97%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto2.png" alt="Proyecto de Flexy Webs" style="width: 97%;"></a>
                     </div>
                     <div class="col-12 col-md-4 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto3.png" alt="" style="width: 94%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto3.png" alt="Proyecto de Flexy Webs" style="width: 94%;"></a>
                     </div>
                     <div class="col-12 text-center">
                         <a href="proyectos.php"><button class="btn">Explorar los proyectos</button></a>

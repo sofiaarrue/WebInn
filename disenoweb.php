@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <meta name="description" content="Nuestro servicio incluye un diseño y programación web personalizado en base a los objetivos y necesidades de nuestros clientes, así como la optimización SEO del sitio.">
-    <title>Diseño Web para alojamientos | WebInn</title>
+    <meta name="description" content="Nuestro servicio incluye un diseño y programación web personalizado, así como la optimización SEO del sitio, el hosting y el dominio.">
+    <title>Diseño Web para alojamientos | Flexy Webs</title>
 </head>
 
 <body id="diseñoWeb">
@@ -58,8 +58,8 @@
                             <div class="col-6 col-md-3 my-2 text-center dw__propiedades-div-container">
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-clock mb-3 dw__propiedades-i"></i>
-                                    <h4 style="color: #080357;">Rendimiento</h4>
-                                    <p>Carga más rápido gracias al protocolo HTTP/2</p>
+                                    <h4 style="color: #080357;">Posicionamiento</h4>
+                                    <p>Optimización en motores de búsqueda o SEO</p>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3 my-2 text-center dw__propiedades-div-container">
@@ -179,11 +179,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img src="imagenes/Mnaranja.png" alt="" class="Mnaranja">
+                        <img src="imagenes/Mnaranja.png" alt="Item de diseño web" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>El cambio que llevará a tu alojamiento al siguiente nivel</h2>
                         </div>
-                        <img src="imagenes/Mazul.png" alt="" class="Mazul">
+                        <img src="imagenes/Mazul.png" alt="Item de diseño web" class="Mazul">
                     </div>
                 </div>
             </div>

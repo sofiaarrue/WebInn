@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <meta name="description" content="Recorrido por los últimos proyectos completamente adaptables a todos los dispositivos realizados por WebInn.">
-    <title>Nuestros últimos proyectos | WebInn</title>
+    <title>Nuestros últimos proyectos | Flexy Webs</title>
 </head>
 
 <body id="proyectos">
@@ -28,7 +28,7 @@
             <div class="container">
                 <div class="row proyecto__container">
                     <div class="col-12 col-md-8 proyecto__img-container text-center">
-                        <img src="imagenes/img_proyecto1.png" alt="">
+                        <img src="imagenes/img_proyecto1.png" alt="Proyecto moderno realizado por Flexy Webs adaptado a todos los dispositivos">
                     </div>
                     <div class="col-12 col-md-4 proyecto__text-container">
                         <div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="row proyecto__container">
                     <div class="col-12 col-md-8 proyecto__img-container img2 text-center">
-                        <img src="imagenes/img_proyecto2.png" alt="" style="width: 90%;">
+                        <img src="imagenes/img_proyecto2.png" alt="Proyecto clásico realizado por Flexy Webs adaptado a todos los dispositivos" style="width: 90%;">
                     </div>
                     <div class="col-12 col-md-4 proyecto__text-container text2">
                         <div>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="row proyecto__container">
                     <div class="col-12 col-md-8 proyecto__img-container text-center">
-                        <img src="imagenes/img_proyecto3.png" alt="" style="width: 90%;">
+                        <img src="imagenes/img_proyecto3.png" alt="Proyecto minimalista por Flexy Webs adaptado a todos los dispositivos" style="width: 90%;">
                     </div>
                     <div class="col-12 col-md-4 proyecto__text-container">
                         <div>
