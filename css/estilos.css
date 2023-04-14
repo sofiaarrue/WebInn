@@ -417,7 +417,7 @@ li {
 
 .newsletter {
     background-color: #E4E4E4;
-    padding: 5em 0 6em 0;
+    padding: 6em 0;
 }
 
 .newsletter h4 {
@@ -792,4 +792,23 @@ li {
 
 .contacto-footer {
     background-color: #080357;
+}
+
+/* proximamente */
+
+.proximamente-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proximamente-container img{
+    width: 80%;
+}
+
+.proximamente-logo {
+    position: absolute;
+    top: 120%;
+    right: 40%;
+    width: 20%;
 }

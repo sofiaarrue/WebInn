@@ -1,0 +1,61 @@
+<?php
+
+if ($_POST) {
+$nombre = $_POST["txtNombre"];
+$correo = $_POST["txtCorreo"];
+$check = $_POST["txtCheckbox"];
+
+
+if ($nombre != "" && $correo != "" && $check != "") {
+
+// Varios destinatarios
+$para = "";
+$titulo = $nombre . ' se subscribió a tu Newsletter';
+
+// mensaje
+$cuerpo = "
+Nombre: $nombre <br>
+Correo: $correo <br>
+";
+
+// Para enviar un correo HTML, debe establecerse la cabecera Content-type
+$cabeceras = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+// Cabeceras adicionales
+$cabeceras .= 'To: contacto@webinn.host' . "\r\n";
+$cabeceras .= 'From:' . $correo . "\r\n";
+
+// Enviarlo
+mail($para, $titulo, $cuerpo, $cabeceras);
+}
+}?>
+
+
+<section class="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center py-2">Enterate de todas nuestras ofertas y novedades</h3>
+            </div>
+        </div>
+        <form action="index.php" method="post" class="pt-2">
+            <div class="row mx-auto">
+                <div class="col-12 col-md-6 my-1 text-center">
+                    <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Nombre *" required>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <input type="email" id="txtCorreo" name="txtCorreo" class="form-control" placeholder="Correo electrónico *" required>
+                </div>
+                <div class="col-12">
+                    <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3" required>
+                    <label for="txtCheckbox" style="font-size: 18px; line-height: 30px; color: #877560;"> Quiero
+                        recibir noticias de Flexy Webs</label>
+                </div>
+                <div class="col-12 my-3 text-center">
+                    <button type="submit" class="btn my-0">Subscribirme</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

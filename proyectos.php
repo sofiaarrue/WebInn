@@ -46,7 +46,7 @@
                         <div>
                             <h3>Web clásica</h3>
                             <p>Centrado en la información a comunicar, este diseño tiene como objetivo principal la facilidad de uso, distinguiéndose por su elegancia.</p>
-                            <a href="" target="_blank"><button class="btn"><b>Ver proyecto</b></button></a>
+                            <a href="proximamente.php"><button class="btn"><b>Ver proyecto</b></button></a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         <div>
                             <h3>Web minimalista</h3>
                             <p>Este estilo se reduce a lo esencial para combinar diseño y funcionalidad de una forma sencilla e inteligente, utilizando sólo los elementos mínimos y básicos.</p>
-                            <a href="" target="_blank"><button class="btn"><b>Ver proyecto</b></button></a>
+                            <a href="proximamente.php"><button class="btn"><b>Ver proyecto</b></button></a>
                         </div>
                     </div>
                 </div>

@@ -1,35 +1,4 @@
-<?php $pg = "inicio";
-
-if ($_POST) {
-    $nombre = $_POST["txtNombre"];
-    $correo = $_POST["txtCorreo"];
-    $check  = $_POST["txtCheckbox"];
-
-
-    if ($nombre != "" && $correo != "" && $check != "") {
-
-        // Varios destinatarios
-        $para = "";
-        $titulo = $nombre . ' se subscribió a tu Newsletter';
-
-        // mensaje
-        $cuerpo = "
-        Nombre: $nombre <br>
-        Correo: $correo <br>
-        ";
-
-        // Para enviar un correo HTML, debe establecerse la cabecera Content-type
-        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-        $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-
-        // Cabeceras adicionales
-        $cabeceras .= 'To: contacto@webinn.host' . "\r\n";
-        $cabeceras .= 'From:' . $correo . "\r\n";
-
-        // Enviarlo
-        mail($para, $titulo, $cuerpo, $cabeceras);
-    }
-} ?>
+<?php $pg = "inicio";?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -43,7 +12,7 @@ if ($_POST) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <meta name="description" content="flexywebs provee páginas web especializadas en hospedaje, como hoteles, resorts, complejos turísticos, aparts, campings. También provee un servicio de Newsletter.">
+    <meta name="description" content="Flexy Webs provee páginas web especializadas en hospedaje, como hoteles, resorts, complejos turísticos, aparts, campings. También provee un servicio de Newsletter.">
     <title>Flexy Webs | Páginas Web para alojamientos</title>
 </head>
 
@@ -150,19 +119,19 @@ if ($_POST) {
                     </svg>
                     <div class="slider__body slider__body--show" data-id="1">
                         <div class="slider__body-itemscontainer text-center p-1 mx-1">
-                            <img src="imagenes/nuestrosServicios.png" class="slider__img mb-5" alt="Ilustración: dos mujeres diseñando">
+                            <img src="imagenes/nuestrosServicios.png" class="slider__img mb-5" alt="Ilustración: design team">
                             <p><b>Diseño exclusivo y personalizado</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="2">
                         <div class="text-center p-3 mx-1">
-                            <img src="imagenes/nuestrosServicios2.png" class="slider__img mb-4" alt="Ilustración: mujer eligiendo contenido de una pantalla">
+                            <img src="imagenes/nuestrosServicios2.png" class="slider__img mb-4" alt="Ilustración: online art">
                             <p><b>Dominio, Hosting y correo corporativo</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="3">
                         <div class="slider__body-itemscontainer text-center p-3 mx-1">
-                            <img src="imagenes/nuestrosServicios3.png" class="slider__img mb-5" alt="Ilustración: adaptabilidad a desktop, tablet y mobile">
+                            <img src="imagenes/nuestrosServicios3.png" class="slider__img mb-5" alt="Ilustración: responsive, adaptabilidad a desktop, tablet y mobile">
                             <p><b>Programación web responsive</b></p>
                         </div>
                     </div>
@@ -215,33 +184,7 @@ if ($_POST) {
                 </div>
             </div>
         </section>
-        <section class="newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="text-center py-2">Enterate de todas nuestras ofertas y novedades</h3>
-                    </div>
-                </div>
-                <form action="index.php" method="post" class="pt-2">
-                    <div class="row mx-auto">
-                        <div class="col-12 col-md-6 my-1 text-center">
-                            <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Nombre *" required>
-                        </div>
-                        <div class="col-12 col-md-6 text-center">
-                            <input type="email" id="txtCorreo" name="txtCorreo" class="form-control" placeholder="Correo electrónico *" required>
-                        </div>
-                        <div class="col-12">
-                            <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3" required>
-                            <label for="txtCheckbox" style="font-size: 18px; line-height: 30px; color: #877560;"> Quiero
-                                recibir noticias de Flexy Webs</label>
-                        </div>
-                        <div class="col-12 my-3 text-center">
-                            <button type="submit" class="btn my-0">Subscribirme</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
+        <?php include_once("newsletter.php"); ?>
     </main>
     <footer>
         <?php include_once("footer.php"); ?>

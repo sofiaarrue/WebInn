@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <meta name="description" content="Somos un equipo especializado en crear diseños funcionales y atractivos para tu hotel o alojamiento, que comparte una pasión por el turismo, el diseño y la programación.">
-    <title>Conoce la empresa | WebInn</title>
+    <title>Conoce la empresa | Flexy Webs</title>
 </head>
 
 <body id="quienesSomos">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="row p-3">
                     <div class="col-12 col-md-6 qs__img-container pb-3">
-                        <img src="imagenes/qs__img1.png" alt="" class="qs__img">
+                        <img src="imagenes/qs__img1.png" alt="Ilustración: Flexy Webs team" class="qs__img">
                     </div>
                     <div class="col-12 col-md-6 qs__texto">
                         <p>Somos un equipo especializado en crear diseños <b>funcionales</b> y <b>atractivos</b>
@@ -64,7 +64,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-md-6 qs__img-container py-3">
-                        <img src="imagenes/qs__img2.png" alt="" class="qs__img">
+                        <img src="imagenes/qs__img2.png" alt="Ilustración: work together" class="qs__img">
                     </div>
                 </div>
             </div>
