@@ -75,40 +75,27 @@
                 <div class="row">
                     <div class="col-12 text-center mt-3">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, asperiores. Aliquam quis
-                            accusantium
-                            nesciunt non. Sequi ducimus laudantium error veritatis et doloribus illum, asperiores
-                            eveniet,
-                            hic ea
-                            est sit mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero
-                            dolores
-                            sunt sed, tempore incidunt architecto, quis qui nisi dignissimos quaerat fuga itaque eveniet
-                            porro ut illum ipsam, dicta soluta?</p>
+                            accusantium nesciunt non. </p>
                     </div>
                 </div>
             </div>
             <div class="container-fluid mt-3 p-4 ubicacion__acts-cercanas-fondo">
                 <div class="row">
                     <div class="col-12 col-md-6 my-2 ubicacion__acts-cercanas-img">
-                        <img src="imagenes/fermin-rodriguez-penelas-MecrxdAPD1E-unsplash 1.png" alt="playa2" style="width: 27em;">
+                        <img src="imagenes/fermin-rodriguez-penelas-MecrxdAPD1E-unsplash 1.png" alt="playa2" style="width: 90%;">
                     </div>
                     <div class="col-12 col-md-6 text-center my-auto">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti excepturi ullam ex
-                            consectetur laudantium. Ipsum dolores eius harum quo ullam dolorum neque nostrum
-                            laudantium
-                            eos? Repellat recusandae dolorem eaque nihil.</p>
+                            consectetur laudantium.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6 text-center my-auto">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti excepturi ullam ex
-                            consectetur laudantium.
-                            Ipsum dolores eius harum quo ullam dolorum neque nostrum laudantium eos? Repellat
-                            recusandae
-                            dolorem eaque
-                            nihil.</p>
+                            consectetur laudantium.</p>
                     </div>
                     <div class="col-12 col-md-6 my-2 ubicacion__acts-cercanas-img">
-                        <img style=" width: 27em;" class="img-float" src="imagenes/fermin-rodriguez-penelas-hiMLzO_8Nz4-unsplash 1.png" alt="playa3">
+                        <img style=" width: 90%;" class="img-float" src="imagenes/fermin-rodriguez-penelas-hiMLzO_8Nz4-unsplash 1.png" alt="playa3">
                     </div>
                 </div>
             </div>
@@ -168,7 +155,7 @@
                     <div class="row mx-auto">
                         <div class="col-12 pt-2">
                             <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3">
-                            <label for="txtCheckbox" style="font-weight: 400; font-size: 18px; line-height: 30px; color: #877560;"> Quiero
+                            <label for="txtCheckbox" style="font-weight: 400; font-size: 15px; color: #877560;"> Quiero
                                 recibir noticias de Apartamentos Lorem</label>
                         </div>
                     </div>

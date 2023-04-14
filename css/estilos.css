@@ -66,8 +66,8 @@ p {
 li {
     list-style: none;
     font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -280,8 +280,8 @@ li {
 
 @media screen and (min-width: 768px) {
 
-    .intro{
-    height: 90vh;
+    .intro {
+        height: 90vh;
     }
 
     .imgIntro-img {
@@ -410,7 +410,7 @@ li {
     object-fit: cover;
 }
 
-.proyecto__img-index img{
+.proyecto__img-index img {
     width: 70%;
     margin: 1em 0 0 0;
 }
@@ -500,7 +500,8 @@ li {
     border-bottom-right-radius: 3em;
     background-image: url("../imagenes/dw__intro.png");
     background-repeat: no-repeat;
-    background-size: 160% 100%;
+    background-size: auto;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -619,7 +620,7 @@ li {
 
 .proyectos__intro {
     height: 40vh;
-    background-size: 100% 100%;
+    background-size: auto;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
     background-image: url("../imagenes/proyectos__intro.png");
@@ -796,13 +797,13 @@ li {
 
 /* proximamente */
 
-.proximamente-container{
+.proximamente-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.proximamente-container img{
+.proximamente-container img {
     width: 80%;
 }
 
