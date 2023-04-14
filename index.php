@@ -10,7 +10,7 @@ if ($_POST) {
 
         // Varios destinatarios
         $para = "";
-        $titulo = $nombre . 'se subscribió a tu Newsletter';
+        $titulo = $nombre . ' se subscribió a tu Newsletter';
 
         // mensaje
         $cuerpo = "
@@ -28,7 +28,6 @@ if ($_POST) {
 
         // Enviarlo
         mail($para, $titulo, $cuerpo, $cabeceras);
-        header("Location: confirmacion_envio.php");
     }
 }?>
 
