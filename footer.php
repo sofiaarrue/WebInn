@@ -44,7 +44,7 @@ if ($_POST) {
     </div>
     <div class="row">
         <div class="col-12 col-md-6 footer__form-container">
-            <form action="<?php echo $pg . ".php"; ?>" method="post" class="footer__form mx-3 p-3">
+           <form action="<?php if ($pg == "inicio") { echo "index.php";} else {echo $pg . ".php";}?>" method="post" class="footer__form mx-3 p-3">
                 <h3 class="text-center">¿Hablamos?</h3>
                 <div class="form__section my-2">
                     <input type="text" name="txtNombre" id="txtNombre" class="form__input" placeholder="Nombre" required>
