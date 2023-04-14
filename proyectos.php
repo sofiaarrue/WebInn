@@ -34,7 +34,7 @@
                         <div>
                             <h3>Web moderna</h3>
                             <p>Los distintos colores, las tipografías grandes y los componentes interactivos le darán a tu web un estilo altamente atractivo.</p>
-                            <a href="template1/index.html" target="_blank"><button class="btn"><b>Ver proyecto</b></button></a>
+                            <a href="template1/index.php" target="_blank"><button class="btn"><b>Ver proyecto</b></button></a>
                         </div>
                     </div>
                 </div>
