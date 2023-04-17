@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes/">
     <meta name="description" content="Somos un equipo especializado en crear diseños funcionales y atractivos para tu hotel o alojamiento, que comparte una pasión por el turismo, el diseño y la programación.">
     <title>Conoce la empresa | Flexy Webs</title>
 </head>
