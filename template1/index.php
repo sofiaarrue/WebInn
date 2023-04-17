@@ -47,7 +47,7 @@
                                 culpa officiis cum. Magnam, eligendi.<br><br>
                                 Con todos nuestros servicios
                             </p>
-                            <a href="servicios.html" style="text-decoration: none;">
+                            <a href="servicios.php" style="text-decoration: none;">
                                 <div class="descripcion__i px-5 mt-5">
                                     <i class="fa-solid fa-car"></i>
                                     <i class="fa-solid fa-mug-saucer"></i>
@@ -91,7 +91,7 @@
                 <script src="js/sliders.js"></script>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <a href="galeria.html" class="btn my-3">Ver galeria completa</a>
+                        <a href="galeria.php" class="btn my-3">Ver galeria completa</a>
                     </div>
                 </div>
 
@@ -132,15 +132,15 @@
                 <div class="row">
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
                         <img class="mas-sobre-nosotros__button-container-img" src="imagenes/aparts.jpg" alt="habitacion" style="width: 343px; height: 287px;">
-                        <a href="unidades.html"><button class="mas-sobre-nosotros__button-container-a">Unidades</button></a>
+                        <a href="unidades.php"><button class="mas-sobre-nosotros__button-container-a">Unidades</button></a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
                         <img class="mas-sobre-nosotros__button-container-img" src="imagenes/tholaal-mohamed-8sKTHeGgrUM-unsplash.png" alt="" style="width: 343px; height: 287px;">
-                        <a href="galeria.html"><button class="mas-sobre-nosotros__button-container-a">Galería</button></a>
+                        <a href="galeria.php"><button class="mas-sobre-nosotros__button-container-a">Galería</button></a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
                         <img class="mas-sobre-nosotros__button-container-img" src="imagenes/staff hotel.png" alt="" style="width: 343px; height: 287px;">
-                        <a href="servicios.html"><button class="mas-sobre-nosotros__button-container-a">Servicios</button></a>
+                        <a href="servicios.php"><button class="mas-sobre-nosotros__button-container-a">Servicios</button></a>
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@
                     <div class="row mx-auto">
                         <div class="col-12 pt-2">
                             <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3">
-                            <label for="txtCheckbox" style="font-weight: 400; font-size: 15px; color: #877560;"> Quiero
+                            <label for="txtCheckbox" style="font-weight: 300; font-size: 15px; color: #877560;"> Quiero
                                 recibir noticias de Apartamentos Lorem</label>
                         </div>
                     </div>

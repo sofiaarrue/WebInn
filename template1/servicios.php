@@ -101,15 +101,15 @@
                 <div class="row">
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
                         <img class="mas-sobre-nosotros__button-container-img" src="imagenes/aparts.jpg" alt="habitacion" style="width: 343px; height: 287px;">
-                        <a href="unidades.html"><button class="mas-sobre-nosotros__button-container-a">Unidades</button></a>
+                        <a href="unidades.php"><button class="mas-sobre-nosotros__button-container-a">Unidades</button></a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
                         <img class="mas-sobre-nosotros__button-container-img" src="imagenes/frank-mckenna-OD9EOzfSOh0-unsplash.png" alt="" style="width: 343px; height: 287px;">
-                        <a href="galeria.html"><button class="mas-sobre-nosotros__button-container-a">Ubicación</button></a>
+                        <a href="galeria.php"><button class="mas-sobre-nosotros__button-container-a">Ubicación</button></a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 mas-sobre-nosotros__button-container mx-auto my-4">
                         <img class="mas-sobre-nosotros__button-container-img" src="imagenes/alevision-co-lw3Lqe2K7xc-unsplash.jpg" alt="" style="width: 343px; height: 287px;">
-                        <a href="galeria.html"><button class="mas-sobre-nosotros__button-container-a">Galería</button></a>
+                        <a href="galeria.php"><button class="mas-sobre-nosotros__button-container-a">Galería</button></a>
                     </div>
                 </div>
             </div>

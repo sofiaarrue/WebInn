@@ -28,7 +28,7 @@
                         <img src="imagenes/logo.png" alt="">
                     </div>
                 </div>
-                <form action="contacto.html" class="form">
+                <form action="contacto.php" class="form">
                     <div class="form__section">
                         <input type="text" name="txtNombre" class="form__input" placeholder="Nombre" required>
                     </div>
