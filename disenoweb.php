@@ -30,28 +30,28 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="row text-center">
-                            <div class="col-6 col-md-3 my-2 text-center dw__propiedades-div-container">
+                            <div class="col-12 col-md-3 my-2 text-center dw__propiedades-div-container">
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-mobile mb-3 dw__propiedades-i"></i>
                                     <h4 style="color: #080357;">Mobile First</h4>
                                     <p>Priorizamos el móvil con un diseño 100% responsivo</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3 my-2 text-center dw__propiedades-div-container">
+                          <div class="col-12 col-md-3 my-2 text-center dw__propiedades-div-container">
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-clock mb-3 dw__propiedades-i"></i>
                                     <h4 style="color: #080357;">Posicionamiento</h4>
                                     <p>Optimización en motores de búsqueda o SEO</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3 my-2 text-center dw__propiedades-div-container">
+                            <div class="col-12 col-md-3 my-2 text-center dw__propiedades-div-container">
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-lock mb-3 dw__propiedades-i"></i>
                                     <h4 style="color: #080357;">Seguridad</h4>
                                     <p>Conexión segura y cifrada gracias al certificado SSL</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3 my-2 text-center dw__propiedades-div-container">
+                            <div class="col-12 col-md-3 my-2 text-center dw__propiedades-div-container">
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-language mb-3 dw__propiedades-i"></i>
                                     <h4 style="color: #080357;">Administración de contenidos</h4>
