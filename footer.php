@@ -65,7 +65,7 @@ if ($_POST) {
                 </div>
                 <div class="form__section my-2">
                     <input type="checkbox" id="txtCheckbox" name="txtCheckbox" required>
-                    <label for="txtCheckbox" style="font-size: 15px; color: #877560;"> Acepto la <a href="privacidad.php">política de privacidad</a>.</label>
+                    <label for="txtCheckbox" style="font-size: 15px; color: #877560;"> He leído y acepto la <a href="privacidad.php">política de privacidad</a>.</label>
                 </div>
                 <div class="text-center">
                     <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>

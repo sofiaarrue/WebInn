@@ -1,4 +1,4 @@
-<?php $pg = "disenoWeb"; ?>
+<?php $pg = "disenoweb"; ?>
 
 <!DOCTYPE html>
 <html lang="es">

@@ -5,9 +5,10 @@ if ($_POST) {
     $correo = $_POST["txtCorreo"];
     $telefono = $_POST["txtTelefono"];
     $mensaje = $_POST["txtMensaje"];
+    $check = $_POST["txtCheckbox"];
 
 
-    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "") {
+    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje !="" && $check != "") {
 
         // Varios destinatarios
         $para = "";
@@ -82,6 +83,10 @@ if ($_POST) {
                     </div>
                     <div class="form__section">
                         <textarea class="form__input" name="txtMensaje" id="txtMensaje" placeholder="Escriba su mensaje aquí"></textarea>
+                    </div>
+                    <div class="form__section my-2">
+                        <input type="checkbox" id="txtCheckbox" name="txtCheckbox" required>
+                        <label for="txtCheckbox" style="font-size: 15px; color: #877560;"> He leído y acepto la <a href="privacidad.php">política de privacidad</a>.</label>
                     </div>
                     <div>
                         <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>
