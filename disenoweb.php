@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <meta name="description" content="Nuestro servicio incluye un diseño y programación web personalizado, así como la optimización SEO del sitio, el hosting y el dominio.">
     <title>Diseño Web para alojamientos | Flexy Webs</title>
 </head>
@@ -37,7 +38,7 @@
                                     <p>Priorizamos el móvil con un diseño 100% responsivo</p>
                                 </div>
                             </div>
-                          <div class="col-12 col-md-3 my-2 text-center dw__propiedades-div-container">
+                            <div class="col-12 col-md-3 my-2 text-center dw__propiedades-div-container">
                                 <div class="dw__propiedades-div">
                                     <i class="fa-solid fa-clock mb-3 dw__propiedades-i"></i>
                                     <h4 style="color: #080357;">Posicionamiento</h4>

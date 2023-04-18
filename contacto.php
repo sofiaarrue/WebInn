@@ -26,7 +26,7 @@ if ($_POST) {
         $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
         // Cabeceras adicionales
-        $cabeceras .= 'To: contacto@webinn.host' . "\r\n";
+        $cabeceras .= 'To: contacto@flexywebs.com' . "\r\n";
         $cabeceras .= 'From:' . $correo . "\r\n";
 
         // Enviarlo
@@ -48,6 +48,7 @@ if ($_POST) {
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <meta name="description" content="Escribinos tu mensaje para un asesoramiento personalizado de la página web de tu hospedaje turístico">
     <title>Contacto | Flexy Webs</title>
 </head>

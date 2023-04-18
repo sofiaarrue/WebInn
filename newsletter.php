@@ -23,7 +23,7 @@ $cabeceras = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
 // Cabeceras adicionales
-$cabeceras .= 'To: contacto@webinn.host' . "\r\n";
+$cabeceras .= 'To: contacto@flexywebs.com' . "\r\n";
 $cabeceras .= 'From:' . $correo . "\r\n";
 
 // Enviarlo

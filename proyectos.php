@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <meta name="description" content="Recorrido por los últimos proyectos completamente adaptables a todos los dispositivos realizados por WebInn.">
     <title>Nuestros últimos proyectos | Flexy Webs</title>
 </head>
