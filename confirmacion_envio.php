@@ -1,3 +1,4 @@
+<?php $pg = "confirmacion_envio";?>
 <!DOCTYPE html>
 <html lang="es">
 
