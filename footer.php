@@ -5,9 +5,10 @@ if ($_POST) {
     $correo = $_POST["txtCorreo"];
     $telefono = $_POST["txtTelefono"];
     $mensaje = $_POST["txtMensaje"];
+    $check = $_POST["txtCheckbox"];
 
 
-    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "") {
+    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje !="" && $check != "") {
 
         // Varios destinatarios
         $para = "";
@@ -62,6 +63,10 @@ if ($_POST) {
                 <div class="form__section my-2">
                     <textarea class="form__input" name="txtMensaje" id="txtMensaje" placeholder="Escriba su mensaje quí"></textarea>
                 </div>
+                <div class="form__section my-2">
+                    <input type="checkbox" id="txtCheckbox" name="txtCheckbox" required>
+                    <label for="txtCheckbox" style="font-size: 15px; color: #877560;"> Acepto la <a href="privacidad.php">política de privacidad</a>.</label>
+                </div>
                 <div class="text-center">
                     <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>
                 </div>
@@ -90,7 +95,7 @@ if ($_POST) {
                 </div>
                 <div class="col-12 col-md-8 my-auto text-center">
                     <p><a href="https://api.whatsapp.com/send?phone=91122627582" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-phone footer__i p-1"></i> <b>Tel:</b> +54 9 11 2262-7582</p></a>
-                    <p><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email:</b> contacto@webinn.host </p>
+                    <p><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email:</b> contacto@flexywebs.com</p>
                 </div>
             </div>
         </div>

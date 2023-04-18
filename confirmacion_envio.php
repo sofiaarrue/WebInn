@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <meta name="description" content="Escribinos tu mensaje para un asesoramiento personalizado de la página web de tu hospedaje turístico">
-    <title>Contacto | WebInn</title>
+    <title>Contacto | Flexy Webs</title>
 </head>
 
 <body id="contacto">
