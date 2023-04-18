@@ -8,7 +8,7 @@ if ($_POST) {
     $check = $_POST["txtCheckbox"];
 
 
-    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje !="" && $check != "") {
+    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "" && $check != "") {
 
         // Varios destinatarios
         $para = "";
@@ -86,7 +86,7 @@ if ($_POST) {
                     </div>
                     <div class="form__section my-2">
                         <input type="checkbox" id="txtCheckbox" name="txtCheckbox" required>
-                        <label for="txtCheckbox" style="font-size: 15px; color: #877560;"> He leído y acepto la <a href="privacidad.php">política de privacidad</a>.</label>
+                        <label for="txtCheckbox" style="font-size: 15px; color: #877560;display:inline;"> He leído y acepto la <a href="privacidad.php">política de privacidad</a>.</label>
                     </div>
                     <div>
                         <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>
