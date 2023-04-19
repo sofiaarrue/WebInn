@@ -8,7 +8,7 @@ if ($_POST) {
     $check = $_POST["txtCheckbox"];
 
 
-    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje !="" && $check != "") {
+    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "" && $check != "") {
 
         // Varios destinatarios
         $para = "";
@@ -95,7 +95,7 @@ if ($_POST) {
                 </div>
                 <div class="col-12 col-md-8 my-auto text-center">
                     <p><a href="https://api.whatsapp.com/send?phone=91122627582" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-phone footer__i p-1"></i> <b>Tel:</b> +54 9 11 2262-7582</p></a>
-                    <p><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email:</b> contacto@flexywebs.com</p>
+                    <p><a href="mailto:contacto@flexywebs.com" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email: </b>contacto@flexywebs.com</p></a>
                 </div>
             </div>
         </div>
