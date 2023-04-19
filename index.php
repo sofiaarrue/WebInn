@@ -33,7 +33,7 @@
                             Destaca en línea y atrae a más huéspedes
                         </h3>
                         <div class="text-center my-2">
-                            <a href="disenoweb.php"><button class="btn"><b>Comenzá ahora</b></button></a>
+                            <a href="disenoweb.php"><button class="btn"><b>Cotizar gratis ahora</b></button></a>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 text-center imgIntro">

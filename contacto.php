@@ -105,19 +105,19 @@ if ($_POST) {
                 <div class="col-12 col-md-5 footer__ul-box-contacto m-auto text-center mb-3">
                     <ul class="footer__ul">
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="index.html">Inicio</a>
+                            <a class="footer-link" href="index.php">Inicio</a>
                         </li>
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="servicio.html">Diseño Web</a>
+                            <a class="footer-link" href="servicio.php">Diseño Web</a>
                         </li>
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="proyectos.html">Proyectos</a>
+                            <a class="footer-link" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="quienessomos.html">Quienes somos</a>
+                            <a class="footer-link" href="quienessomos.php">Quienes somos</a>
                         </li>
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="contacto.html">Contacto</a>
+                            <a class="footer-link" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                 </div>

@@ -49,7 +49,7 @@ mail($para, $titulo, $cuerpo, $cabeceras);
                 </div>
                 <div class="col-12" style="display: flex; align-items:center;">
                     <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3" required>
-                    <label for="txtCheckbox" style="font-size: 15px; color: #877560;">  Quiero recibir noticias de Flexy Webs</label>
+                    <label for="txtCheckbox" style="font-size: 15px; color: #877560; display:inline;">  Quiero recibir noticias de Flexy Webs</label>
                 </div>
                 <div class="col-12 my-3 text-center">
                     <button type="submit" class="btn my-0">Subscribirme</button>

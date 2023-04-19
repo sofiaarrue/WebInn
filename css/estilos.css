@@ -813,3 +813,20 @@ li {
     right: 40%;
     width: 20%;
 }
+
+/* confirmacion envío 
+
+.confirmacion-envio__button-container-img {
+    width: 50%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.confirmacion-envio__button-container {
+    display: flex;
+    position: relative;
+    vertical-align: middle;
+    flex: 0 0 auto;
+}
+}*/

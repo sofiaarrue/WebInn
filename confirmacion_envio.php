@@ -1,4 +1,4 @@
-<?php $pg = "confirmacion_envio";?>
+<?php $pg = "confirmacion_envio"; ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -23,15 +23,62 @@
 
     <main class="container">
         <div class="row">
-            <div class="col-12 pt-3 pb-5">
+            <div class="col-12 pt-3 my-5 pb-2">
                 <h1 style="color: #080357;">Gracias por contactarnos</h1>
-                <h2 style="color: #FFC15E;">Nos comunicaremos en breve</h2>
+                <h3 style="color: #FFC15E;">Nos comunicaremos en breve</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-sm-3 text-center">
+                <img class="confirmacion-envio__button-container-img" src="imagenes/imgIntro-ce.png" style="width:100%;" alt="">
+                <a href="index.php"><button class="confirmacion-envio__button-container-a btn" style="position: relative; top: -2em;">Inicio</button></a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <img class="confirmacion-envio__button-container-img" src="imagenes/proyectoIntro-ce.png" style="width:100%;" alt="">
+                <a href="proyectos.php"><button class="confirmacion-envio__button-container-a btn" style="position: relative; top: -2em;">Proyectos</button></a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <img class="confirmacion-envio__button-container-img" src="imagenes/dwIntro-ce.png" style="width:100%;" alt="">
+                <a href="disenoweb.php"><button class="confirmacion-envio__button-container-a btn" style="position: relative; top: -2em;">Diseño web</button></a>
+            </div>
+            <div class="col-6 col-sm-3 text-center">
+                <img class="confirmacion-envio__button-container-img" src="imagenes/quienessomos-ce.png" style="width:100%;" alt="">
+                <a href="quienesSomos.php"><button class="confirmacion-envio__button-container-a btn" style="position: relative; top: -2em;">Conocenos</button></a>
             </div>
         </div>
     </main>
 
     <footer>
-        <?php include_once("footer.php"); ?>
+        <div class="container-fluid contacto-footer">
+            <div class="btn-whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=1122627582" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="row footer__box py-4">
+                <div class="col-12 col-md-5 footer__ul-box-contacto m-auto text-center mb-3">
+                    <ul class="footer__ul">
+                        <li class="footer__ul-li mb-3">
+                            <a class="footer-link" href="index.php">Inicio</a>
+                        </li>
+                        <li class="footer__ul-li mb-3">
+                            <a class="footer-link" href="servicio.php">Diseño Web</a>
+                        </li>
+                        <li class="footer__ul-li mb-3">
+                            <a class="footer-link" href="proyectos.php">Proyectos</a>
+                        </li>
+                        <li class="footer__ul-li mb-3">
+                            <a class="footer-link" href="quienesSomos.php">Quienes somos</a>
+                        </li>
+                        <li class="footer__ul-li mb-3">
+                            <a class="footer-link" href="contacto.php">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-7 my-auto text-center">
+                    <p><i class="fa-solid fa-phone footer__i p-1"></i> <b>Tel:</b> +54 11 2262-7582</p>
+                    <p><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email:</b> info@mansoweb.com </p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
