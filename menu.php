@@ -9,7 +9,7 @@
         </li>
         <li class="nav-item">
             <i class="fa-solid fa-code"></i>
-            <a class="nav-link" id="<?php echo ($pg == "disenoWeb") ? "active" : ""; ?>" href="disenoweb.php">Diseño Web</a>
+            <a class="nav-link" id="<?php echo ($pg == "disenoweb") ? "active" : ""; ?>" href="disenoweb.php">Diseño Web</a>
         </li>
         <li class="nav-item">
             <i class="fa-solid fa-pencil"></i>
