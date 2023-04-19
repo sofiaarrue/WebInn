@@ -80,13 +80,13 @@ if ($_POST) {
                             <a class="footer-link" href="index.php">Inicio</a>
                         </li>
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="servicio.php">Diseño Web</a>
+                            <a class="footer-link" href="disenoweb.php">Diseño Web</a>
                         </li>
                         <li class="footer__ul-li mb-3">
                             <a class="footer-link" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="quienessomos.php">Quienes somos</a>
+                            <a class="footer-link" href="quienesSomos.php">Quienes somos</a>
                         </li>
                         <li class="footer__ul-li mb-3">
                             <a class="footer-link" href="contacto.php">Contacto</a>
