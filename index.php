@@ -33,7 +33,7 @@
                             Destaca en línea y atrae a más huéspedes
                         </h3>
                         <div class="text-center my-2">
-                            <a href="disenoweb.php"><button class="btn"><b>Cotizar gratis ahora</b></button></a>
+                            <a href="contacto.php"><button class="btn"><b>Cotizar gratis ahora</b></button></a>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 text-center imgIntro">
@@ -96,9 +96,6 @@
                                     <b>conversión</b> y la experiencia del
                                     cliente.
                                 </p>
-                            </div>
-                            <div class="col-12 text-center">
-                                <a href="contacto.php"><button class="btn">Quiero un presupuesto</button></a>
                             </div>
                         </div>
                     </div>
