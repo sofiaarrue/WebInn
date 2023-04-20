@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
+    <link rel="icon" href="imagenes/logo_miniatura.png">
     <meta name="description" content="Nuestro servicio incluye un diseño y programación web personalizado, así como la optimización SEO del sitio, el hosting y el dominio.">
     <title>Diseño Web para alojamientos | Flexy Webs</title>
 </head>

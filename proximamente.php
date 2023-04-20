@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
+    <link rel="icon" href="imagenes/logo_miniatura.png">
     <meta name="description" content="Flexy Webs se encuentra trabajando en esta sección">
     <title>Estamos trabajando en ello | Flexy Webs</title>
 </head>

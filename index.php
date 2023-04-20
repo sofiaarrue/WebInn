@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
+    <link rel="icon" href="imagenes/logo_miniatura.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <meta name="description" content="Flexy Webs provee páginas web especializadas en hospedaje, como hoteles, resorts, complejos turísticos, aparts, campings. También provee un servicio de Newsletter.">
     <title>Flexy Webs | Páginas Web para alojamientos</title>
