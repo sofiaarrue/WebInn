@@ -39,7 +39,11 @@ mail($para, $titulo, $cuerpo, $cabeceras);
                 <h3 class="text-center py-2">Enterate de todas nuestras ofertas y novedades</h3>
             </div>
         </div>
-        <form action="index.php" method="post" class="pt-2">
+        <form action="<?php if ($pg == "inicio") {
+                            echo "index.php";
+                        } else {
+                            echo $pg . ".php";
+                        } ?>" method="post" class="pt-2">
             <div class="row mx-auto">
                 <div class="col-12 col-md-6 my-1 text-center">
                     <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Nombre *" required>

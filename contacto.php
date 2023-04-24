@@ -109,13 +109,13 @@ if ($_POST) {
                             <a class="footer-link" href="index.php">Inicio</a>
                         </li>
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="servicio.php">Diseño Web</a>
+                            <a class="footer-link" href="disenoweb.php">Diseño Web</a>
                         </li>
                         <li class="footer__ul-li mb-3">
                             <a class="footer-link" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="footer__ul-li mb-3">
-                            <a class="footer-link" href="quienessomos.php">Quienes somos</a>
+                            <a class="footer-link" href="quienesSomos.php">Quienes somos</a>
                         </li>
                         <li class="footer__ul-li mb-3">
                             <a class="footer-link" href="contacto.php">Contacto</a>
@@ -123,8 +123,8 @@ if ($_POST) {
                     </ul>
                 </div>
                 <div class="col-12 col-md-7 my-auto text-center">
-                    <p><i class="fa-solid fa-phone footer__i p-1"></i> <b>Tel:</b> +54 11 2262-7582</p>
-                    <p><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email:</b> info@mansoweb.com </p>
+                    <p><a href="https://api.whatsapp.com/send?phone=91122627582" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-phone footer__i p-1"></i> <b>Tel:</b> +54 9 11 2262-7582</p></a>
+                    <p><a href="mailto:contacto@flexywebs.com" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email: </b>contacto@flexywebs.com</p></a>
                 </div>
             </div>
         </div>
