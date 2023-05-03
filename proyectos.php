@@ -1,4 +1,5 @@
-<?php $pg = "proyectos"; ?>
+<?php $pg = "proyectos";
+include("captcha.php"); ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <link rel="icon" href="imagenes/logo_miniatura.png">
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Recorrido por los últimos proyectos completamente adaptables a todos los dispositivos realizados por WebInn.">
     <title>Nuestros últimos proyectos | Flexy Webs</title>
 </head>

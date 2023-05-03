@@ -5,7 +5,7 @@
     <ul class="navbar-ul mb-md-0" id="navbar-ul">
         <li class="nav-item">
             <i class="fa-solid fa-house"></i>
-            <a class="nav-link" id="<?php echo ($pg == "inicio") ? "active" : ""; ?>" href="index.php">Inicio</a>
+            <a class="nav-link" id="<?php echo ($pg == "index") ? "active" : ""; ?>" href="index.php">Inicio</a>
         </li>
         <li class="nav-item">
             <i class="fa-solid fa-code"></i>

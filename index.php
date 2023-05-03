@@ -1,4 +1,7 @@
-<?php $pg = "inicio"; ?>
+<?php
+$pg = "index";
+include("captcha.php");
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -13,7 +16,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <link rel="icon" href="imagenes/logo_miniatura.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Flexy Webs provee páginas web especializadas en hospedaje, como hoteles, resorts, complejos turísticos, aparts, campings. También provee un servicio de Newsletter.">
     <title>Flexy Webs | Páginas Web para alojamientos</title>
 </head>

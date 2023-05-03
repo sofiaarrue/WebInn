@@ -1,40 +1,5 @@
 <?php $pg = "contacto";
-
-if ($_POST) {
-    $nombre = $_POST["txtNombre"];
-    $correo = $_POST["txtCorreo"];
-    $telefono = $_POST["txtTelefono"];
-    $mensaje = $_POST["txtMensaje"];
-    $check = $_POST["txtCheckbox"];
-
-
-    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "" && $check != "") {
-
-        // Varios destinatarios
-        $para = "";
-        $titulo = 'Recibiste un mensaje desde tu Web';
-
-        // mensaje
-        $cuerpo = "
-        Nombre: $nombre <br>
-        Correo: $correo <br>
-        Telefono: $telefono <br>
-        Mensaje: $mensaje
-        ";
-
-        // Para enviar un correo HTML, debe establecerse la cabecera Content-type
-        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-        $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-
-        // Cabeceras adicionales
-        $cabeceras .= 'To: contacto@flexywebs.com' . "\r\n";
-        $cabeceras .= 'From:' . $correo . "\r\n";
-
-        // Enviarlo
-        mail($para, $titulo, $cuerpo, $cabeceras);
-        header("Location: confirmacion_envio.php");
-    }
-}
+include("captcha.php");
 ?>
 
 
@@ -51,6 +16,7 @@ if ($_POST) {
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <link rel="icon" href="imagenes/logo_miniatura.png">
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Escribinos tu mensaje para un asesoramiento personalizado de la página web de tu hospedaje turístico">
     <title>Contacto | Flexy Webs</title>
 </head>
@@ -89,8 +55,9 @@ if ($_POST) {
                         <input type="checkbox" id="txtCheckbox" name="txtCheckbox" required>
                         <label for="txtCheckbox" style="font-size: 15px; color: #877560;display:inline;"> He leído y acepto la <a href="privacidad.php">política de privacidad</a>.</label>
                     </div>
+                    <input type="hidden" name="token" id="token">
                     <div>
-                        <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">Enviar</button>
+                        <button type="submit" id="btnEnviar" name="btnEnviar" class="btn" disabled>Enviar</button>
                     </div>
                 </form>
             </div>
@@ -129,6 +96,20 @@ if ($_POST) {
             </div>
         </div>
     </footer>
+    <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute(
+                "<?php echo $claves["publica"]; ?>", {
+                    action: "formulario"
+                }
+            ).then(function(rta_token) {
+                const itoken = document.getElementById("token");
+                const btn = document.getElementById("btnEnviar");
+                itoken.value = rta_token;
+                btn.disabled = false;
+            })
+        });
+    </script>
 </body>
 
 </html>

@@ -1,4 +1,5 @@
-<?php $pg = "disenoweb"; ?>
+<?php $pg = "disenoweb";
+include("captcha.php"); ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <link rel="icon" href="imagenes/logo_miniatura.png">
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Nuestro servicio incluye un diseño y programación web personalizado, así como la optimización SEO del sitio, el hosting y el dominio.">
     <title>Diseño Web para alojamientos | Flexy Webs</title>
 </head>

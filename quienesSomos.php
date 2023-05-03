@@ -1,4 +1,5 @@
-<?php $pg = "quienesSomos"; ?>
+<?php $pg = "quienesSomos";
+include("captcha.php"); ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
     <link rel="icon" href="imagenes/logo_miniatura.png">
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Somos un equipo especializado en crear diseños funcionales y atractivos para tu hotel o alojamiento, que comparte una pasión por el turismo, el diseño y la programación.">
     <title>Conoce la empresa | Flexy Webs</title>
 </head>
