@@ -55,6 +55,7 @@ include("captcha.php");
                         <input type="checkbox" id="txtCheckbox" name="txtCheckbox" required>
                         <label for="txtCheckbox" style="font-size: 15px; color: #877560;display:inline;"> He leído y acepto la <a href="privacidad.php">política de privacidad</a>.</label>
                     </div>
+                    <small style="font-size: 10px;">Este sitio está protegido por reCAPTCHA y se aplican la <a href="https://policies.google.com/privacy">política de privacidad</a> y <a href="https://policies.google.com/terms">términos del servicio</a> de Google.</small>
                     <input type="hidden" name="token" id="token">
                     <div>
                         <button type="submit" id="btnEnviar" name="btnEnviar" class="btn" disabled>Enviar</button>

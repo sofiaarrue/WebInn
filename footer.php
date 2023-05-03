@@ -26,6 +26,7 @@
                     <label for="txtCheckbox" style="font-size: 15px; color: #877560; display:inline;"> He leído y acepto la <a href="privacidad.php">política de privacidad</a>.</label>
                 </div>
                 <input type="hidden" name="token" id="token">
+                <small style="font-size: 10px;">Este sitio está protegido por reCAPTCHA y se aplican la <a href="https://policies.google.com/privacy">política de privacidad</a> y <a href="https://policies.google.com/terms">términos del servicio</a> de Google.</small>
                 <div class="text-center">
                     <button type="submit" id="btnEnviar" name="btnEnviar" class="btn" disabled>Enviar</button>
                 </div>
