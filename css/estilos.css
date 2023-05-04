@@ -75,10 +75,6 @@ li {
     line-height: 30px;
 }
 
-.grecaptcha-badge {
-    visibility: collapse !important;
-}
-
 @media screen and (min-width: 768px) {
 
     h1 {
@@ -487,7 +483,7 @@ li {
 .btn-whatsapp {
     position: fixed;
     right: 5%;
-    bottom: 5%;
+    bottom: 9%;
     background-color: #FFC15E;
     color: white;
     padding: 7px 15px;
