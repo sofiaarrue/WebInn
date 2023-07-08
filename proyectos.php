@@ -13,8 +13,8 @@ include("captcha.php"); ?>
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
-    <link rel="icon" href="imagenes/logo_miniatura.png">
+    <link rel="shortcut icon" href="imagenes/logo_miniatura.webp">
+    <link rel="icon" href="imagenes/logo_miniatura.webp">
     <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Recorrido por los últimos proyectos completamente adaptables a todos los dispositivos realizados por WebInn.">
     <title>Nuestros últimos proyectos | Flexy Webs</title>
@@ -32,7 +32,7 @@ include("captcha.php"); ?>
             <div class="container">
                 <div class="row proyecto__container">
                     <div class="col-12 col-md-8 proyecto__img-container text-center">
-                        <img src="imagenes/img_proyecto1-hd.png" alt="Proyecto moderno realizado por Flexy Webs adaptado a todos los dispositivos">
+                        <img src="imagenes/img_proyecto1-hd.webp" alt="Proyecto moderno realizado por Flexy Webs adaptado a todos los dispositivos">
                     </div>
                     <div class="col-12 col-md-4 proyecto__text-container">
                         <div>
@@ -44,7 +44,7 @@ include("captcha.php"); ?>
                 </div>
                 <div class="row proyecto__container">
                     <div class="col-12 col-md-8 proyecto__img-container img2 text-center">
-                        <img src="imagenes/img_proyecto2-hd.png" alt="Proyecto clásico realizado por Flexy Webs adaptado a todos los dispositivos" style="width: 90%;">
+                        <img src="imagenes/img_proyecto2-hd.webp" alt="Proyecto clásico realizado por Flexy Webs adaptado a todos los dispositivos" style="width: 90%;">
                     </div>
                     <div class="col-12 col-md-4 proyecto__text-container text2">
                         <div>
@@ -56,7 +56,7 @@ include("captcha.php"); ?>
                 </div>
                 <div class="row proyecto__container">
                     <div class="col-12 col-md-8 proyecto__img-container text-center">
-                        <img src="imagenes/img_proyecto3-hd.png" alt="Proyecto minimalista por Flexy Webs adaptado a todos los dispositivos" style="width: 90%;">
+                        <img src="imagenes/img_proyecto3-hd.webp" alt="Proyecto minimalista por Flexy Webs adaptado a todos los dispositivos" style="width: 90%;">
                     </div>
                     <div class="col-12 col-md-4 proyecto__text-container">
                         <div>
