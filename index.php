@@ -121,19 +121,19 @@ include("captcha.php");
                     </svg>
                     <div class="slider__body slider__body--show" data-id="1">
                         <div class="slider__body-itemscontainer text-center p-1 mx-1">
-                            <img src="imagenes/nuestrosServicios.png" class="slider__img mb-5" alt="Ilustración: design team">
+                            <img loading="lazy" src="imagenes/nuestrosServicios.png" class="slider__img mb-5" alt="Ilustración: design team">
                             <p><b>Diseño exclusivo y personalizado</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="2">
                         <div class="text-center p-3 mx-1">
-                            <img src="imagenes/nuestrosServicios2.png" class="slider__img mb-4" alt="Ilustración: online art">
+                            <img loading="lazy" src="imagenes/nuestrosServicios2.png" class="slider__img mb-4" alt="Ilustración: online art">
                             <p><b>Dominio, Hosting y correo corporativo</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="3">
                         <div class="slider__body-itemscontainer text-center p-3 mx-1">
-                            <img src="imagenes/nuestrosServicios3.png" class="slider__img mb-5" alt="Ilustración: responsive, adaptabilidad a desktop, tablet y mobile">
+                            <img loading="lazy" src="imagenes/nuestrosServicios3.png" class="slider__img mb-5" alt="Ilustración: responsive, adaptabilidad a desktop, tablet y mobile">
                             <p><b>Programación web responsive</b></p>
                         </div>
                     </div>
@@ -155,11 +155,11 @@ include("captcha.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img src="imagenes/Mnaranja.png" alt="web" class="Mnaranja">
+                        <img loading="lazy" src="imagenes/Mnaranja.png" alt="web" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>Da a tu alojamiento la presencia en línea que se merece</h2>
                         </div>
-                        <img src="imagenes/Mazul.png" alt="web" class="Mazul">
+                        <img loading="lazy" src="imagenes/Mazul.png" alt="web" class="Mazul">
                     </div>
                 </div>
             </div>
