@@ -1,6 +1,6 @@
 <div class="container-fluid footer mt-0">
     <div class="btn-whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=91122627582" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=91122627582" target="_blank"><img src="imagenes/whatsapp.svg"></a>
     </div>
     <div class="row">
         <div class="col-12 col-md-6 footer__form-container">
