@@ -35,7 +35,7 @@ include("captcha.php");
                 <div class="form__img">
                     <h3 class="my-3">Dejanos tu mensaje para un asesoramiento personalizado</h3>
                     <div class="img-container">
-                        <img src="imagenes/logo1.webp" alt="">
+                        <img src="imagenes/Logo1.webp" alt="">
                     </div>
                 </div>
                 <form action="contacto.php" class="form" method="POST">
