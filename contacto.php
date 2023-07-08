@@ -14,8 +14,8 @@ include("captcha.php");
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
-    <link rel="icon" href="imagenes/logo_miniatura.png">
+    <link rel="shortcut icon" href="imagenes/logo_miniatura.webp">
+    <link rel="icon" href="imagenes/logo_miniatura.webp">
     <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Escribinos tu mensaje para un asesoramiento personalizado de la página web de tu hospedaje turístico">
     <title>Contacto | Flexy Webs</title>
@@ -35,7 +35,7 @@ include("captcha.php");
                 <div class="form__img">
                     <h3 class="my-3">Dejanos tu mensaje para un asesoramiento personalizado</h3>
                     <div class="img-container">
-                        <img src="imagenes/logo1.png" alt="">
+                        <img src="imagenes/logo1.webp" alt="">
                     </div>
                 </div>
                 <form action="contacto.php" class="form" method="POST">
