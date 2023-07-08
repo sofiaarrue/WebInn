@@ -487,13 +487,13 @@ li {
     background-color: #FFC15E;
     color: white;
     padding: 7px 15px;
-    font-size: 30px;
     border-radius: 0.7em;
     text-align: center;
 }
 
-.btn-whatsapp a {
+.btn-whatsapp img {
     color: white !important;
+    size: 30px;
 }
 
 /* Diseño Web */
