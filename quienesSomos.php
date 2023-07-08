@@ -12,8 +12,8 @@ include("captcha.php"); ?>
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
-    <link rel="icon" href="imagenes/logo_miniatura.png">
+    <link rel="shortcut icon" href="imagenes/logo_miniatura.webp">
+    <link rel="icon" href="imagenes/logo_miniatura.webp">
     <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Somos un equipo especializado en crear diseños funcionales y atractivos para tu hotel o alojamiento, que comparte una pasión por el turismo, el diseño y la programación.">
     <title>Conoce la empresa | Flexy Webs</title>
@@ -34,7 +34,7 @@ include("captcha.php"); ?>
                 </div>
                 <div class="row p-3">
                     <div class="col-12 col-md-6 qs__img-container pb-3">
-                        <img src="imagenes/qs__img1.png" alt="Ilustración: Flexy Webs team" class="qs__img">
+                        <img src="imagenes/qs__img1.webp" alt="Ilustración: Flexy Webs team" class="qs__img">
                     </div>
                     <div class="col-12 col-md-6 qs__texto">
                         <p>Somos un equipo especializado en crear diseños <b>funcionales</b> y <b>atractivos</b>
@@ -47,11 +47,11 @@ include("captcha.php"); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img src="imagenes/Mnaranja.png" alt="" class="Mnaranja">
+                        <img src="imagenes/Mnaranja.webp" alt="" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>Diseñamos y desarrollamos soluciones en las que creemos</h2>
                         </div>
-                        <img src="imagenes/Mazul.png" alt="" class="Mazul">
+                        <img src="imagenes/Mazul.webp" alt="" class="Mazul">
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ include("captcha.php"); ?>
                         </p>
                     </div>
                     <div class="col-12 col-md-6 qs__img-container py-3">
-                        <img src="imagenes/qs__img2.png" alt="Ilustración: work together" class="qs__img">
+                        <img src="imagenes/qs__img2.webp" alt="Ilustración: work together" class="qs__img">
                     </div>
                 </div>
             </div>
