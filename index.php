@@ -41,7 +41,7 @@ include("captcha.php");
                         </div>
                     </div>
                     <div class="col-12 col-md-4 text-center imgIntro">
-                        <img src="imagenes/imgIntro.png" alt="Mano sosteniendo bombilla de luz, representando una idea" class="imgIntro-img">
+                        <img src="imagenes/imgIntro.webp" alt="Mano sosteniendo bombilla de luz, representando una idea" class="imgIntro-img">
                     </div>
                 </div>
             </div>
@@ -121,19 +121,19 @@ include("captcha.php");
                     </svg>
                     <div class="slider__body slider__body--show" data-id="1">
                         <div class="slider__body-itemscontainer text-center p-1 mx-1">
-                            <img loading="lazy" src="imagenes/nuestrosServicios.png" class="slider__img mb-5" alt="Ilustración: design team">
+                            <img loading="lazy" src="imagenes/nuestrosServicios.webp" class="slider__img mb-5" alt="Ilustración: design team">
                             <p><b>Diseño exclusivo y personalizado</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="2">
                         <div class="text-center p-3 mx-1">
-                            <img loading="lazy" src="imagenes/nuestrosServicios2.png" class="slider__img mb-4" alt="Ilustración: online art">
+                            <img loading="lazy" src="imagenes/nuestrosServicios2.webp" class="slider__img mb-4" alt="Ilustración: online art">
                             <p><b>Dominio, Hosting y correo corporativo</b></p>
                         </div>
                     </div>
                     <div class="slider__body" data-id="3">
                         <div class="slider__body-itemscontainer text-center p-3 mx-1">
-                            <img loading="lazy" src="imagenes/nuestrosServicios3.png" class="slider__img mb-5" alt="Ilustración: responsive, adaptabilidad a desktop, tablet y mobile">
+                            <img loading="lazy" src="imagenes/nuestrosServicios3.webp" class="slider__img mb-5" alt="Ilustración: responsive, adaptabilidad a desktop, tablet y mobile">
                             <p><b>Programación web responsive</b></p>
                         </div>
                     </div>
@@ -155,11 +155,11 @@ include("captcha.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img loading="lazy" src="imagenes/Mnaranja.png" alt="web" class="Mnaranja">
+                        <img loading="lazy" src="imagenes/Mnaranja.webp" alt="web" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>Da a tu alojamiento la presencia en línea que se merece</h2>
                         </div>
-                        <img loading="lazy" src="imagenes/Mazul.png" alt="web" class="Mazul">
+                        <img loading="lazy" src="imagenes/Mazul.webp" alt="web" class="Mazul">
                     </div>
                 </div>
             </div>
@@ -172,13 +172,13 @@ include("captcha.php");
                         <h3 class="text-center py-2">Algunos de nuestros proyectos recientes</h3>
                     </div>
                     <div class="col-12 col-md-4 my-2 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto1-hd.png" alt="Proyecto de Flexy Webs" style="width: 100%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto1-hd.webp" alt="Proyecto de Flexy Webs" style="width: 100%;"></a>
                     </div>
                     <div class="col-12 col-md-4 my-2 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto2-hd.png" alt="Proyecto de Flexy Webs" style="width: 97%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto2-hd.webp" alt="Proyecto de Flexy Webs" style="width: 97%;"></a>
                     </div>
                     <div class="col-12 col-md-4 my-2 proyecto__img-index text-center">
-                        <a href="proyectos.php"><img src="imagenes/img_proyecto3-hd.png" alt="Proyecto de Flexy Webs" style="width: 94%;"></a>
+                        <a href="proyectos.php"><img src="imagenes/img_proyecto3-hd.webp" alt="Proyecto de Flexy Webs" style="width: 94%;"></a>
                     </div>
                     <div class="col-12 text-center">
                         <a href="proyectos.php"><button class="btn">Explorar los proyectos</button></a>
