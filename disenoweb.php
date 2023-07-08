@@ -12,8 +12,8 @@ include("captcha.php"); ?>
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
-    <link rel="icon" href="imagenes/logo_miniatura.png">
+    <link rel="shortcut icon" href="imagenes/logo_miniatura.webp">
+    <link rel="icon" href="imagenes/logo_miniatura.webp">
     <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Nuestro servicio incluye un diseño y programación web personalizado, así como la optimización SEO del sitio, el hosting y el dominio.">
     <title>Diseño Web para alojamientos | Flexy Webs</title>

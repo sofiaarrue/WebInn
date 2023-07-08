@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="imagenes/logo_miniatura.png">
+    <link rel="shortcut icon" href="imagenes/logo_miniatura.webp">
     <meta name="description" content="Escribinos tu mensaje para un asesoramiento personalizado de la página web de tu hospedaje turístico">
     <title>Contacto | Flexy Webs</title>
 </head>
@@ -30,19 +30,19 @@
         </div>
         <div class="row">
             <div class="col-6 col-sm-3 text-center">
-                <img class="confirmacion-envio__button-container-img" src="imagenes/imgIntro-ce.png" style="width:100%;" alt="">
+                <img class="confirmacion-envio__button-container-img" src="imagenes/imgIntro-ce.webp" style="width:100%;" alt="">
                 <a href="index.php"><button class="confirmacion-envio__button-container-a btn" style="position: relative; top: -2em;">Inicio</button></a>
             </div>
             <div class="col-6 col-sm-3 text-center">
-                <img class="confirmacion-envio__button-container-img" src="imagenes/proyectoIntro-ce.png" style="width:100%;" alt="">
+                <img class="confirmacion-envio__button-container-img" src="imagenes/proyectoIntro-ce.webp" style="width:100%;" alt="">
                 <a href="proyectos.php"><button class="confirmacion-envio__button-container-a btn" style="position: relative; top: -2em;">Proyectos</button></a>
             </div>
             <div class="col-6 col-sm-3 text-center">
-                <img class="confirmacion-envio__button-container-img" src="imagenes/dwIntro-ce.png" style="width:100%;" alt="">
+                <img class="confirmacion-envio__button-container-img" src="imagenes/dwIntro-ce.webp" style="width:100%;" alt="">
                 <a href="disenoweb.php"><button class="confirmacion-envio__button-container-a btn" style="position: relative; top: -2em;">Diseño web</button></a>
             </div>
             <div class="col-6 col-sm-3 text-center">
-                <img class="confirmacion-envio__button-container-img" src="imagenes/quienessomos-ce.png" style="width:100%;" alt="">
+                <img class="confirmacion-envio__button-container-img" src="imagenes/quienessomos-ce.webp" style="width:100%;" alt="">
                 <a href="quienesSomos.php"><button class="confirmacion-envio__button-container-a btn" style="position: relative; top: -2em;">Conocenos</button></a>
             </div>
         </div>
