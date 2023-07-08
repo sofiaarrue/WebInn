@@ -187,7 +187,7 @@ include("captcha.php"); ?>
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>El cambio que llevará a tu alojamiento al siguiente nivel</h2>
                         </div>
-                        <img src="imagenes/Mazul.png" alt="Item de diseño web" class="Mazul">
+                        <img src="imagenes/Mazul.webp" alt="Item de diseño web" class="Mazul">
                     </div>
                 </div>
             </div>

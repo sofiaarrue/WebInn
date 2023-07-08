@@ -503,7 +503,7 @@ li {
     height: 40vh;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
-    background-image: url("../imagenes/dw__intro.png");
+    background-image: url("../imagenes/dw__intro.webp");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -628,7 +628,7 @@ li {
     background-size: auto;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
-    background-image: url("../imagenes/proyectos__intro.png");
+    background-image: url("../imagenes/proyectos__intro.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
@@ -710,7 +710,7 @@ li {
 .contacto__intro {
     height: 45vh;
     background-size: 150%;
-    background-image: url("../imagenes/qs__intro.png");
+    background-image: url("../imagenes/qs__intro.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
