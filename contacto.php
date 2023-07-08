@@ -67,7 +67,7 @@ include("captcha.php");
     <footer>
         <div class="container-fluid contacto-footer">
             <div class="btn-whatsapp">
-                <a href="https://api.whatsapp.com/send?phone=1122627582" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=91122627582" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
             <div class="row footer__box py-4">
                 <div class="col-12 col-md-5 footer__ul-box-contacto m-auto text-center mb-3">
