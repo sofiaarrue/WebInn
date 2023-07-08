@@ -3,7 +3,7 @@
 if ($_POST) {
 $nombre = $_POST["txtNombre"];
 $correo = $_POST["txtCorreo"];
-$check = $_POST["txtCheckbox"];
+$check = $_POST["txtCheckbox1"];
 
 
 if ($nombre != "" && $correo != "" && $check != "") {
@@ -48,8 +48,8 @@ mail($para, $titulo, $cuerpo, $cabeceras);
                     <input type="email" id="txtCorreo" name="txtCorreo" class="form-control" placeholder="Correo electrónico *" required>
                 </div>
                 <div class="col-12" style="display: flex; align-items:center;">
-                    <input type="checkbox" id="txtCheckbox" name="txtCheckbox" class="my-3" required>
-                    <label for="txtCheckbox" style="font-size: 15px; color: #877560; display:inline;">  Quiero recibir noticias de Flexy Webs</label>
+                    <input type="checkbox" id="txtCheckbox1" name="txtCheckbox1" class="my-3" required>
+                    <label for="txtCheckbox1" style="font-size: 15px; color: #877560; display:inline;">  Quiero recibir noticias de Flexy Webs</label>
                 </div>
                 <div class="col-12 my-3 text-center">
                     <button type="submit" class="btn my-0">Subscribirme</button>
