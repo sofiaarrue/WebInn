@@ -154,11 +154,11 @@ include("captcha.php");
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img loading="lazy" src="imagenes/Mnaranja.webp" alt="web" class="Mnaranja">
+                        <img loading="lazy" src="imagenes/Mnaranja.png" alt="web" style="width: 6em" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>Da a tu alojamiento la presencia en línea que se merece</h2>
                         </div>
-                        <img loading="lazy" src="imagenes/Mazul.webp" alt="web" class="Mazul">
+                        <img loading="lazy" src="imagenes/Mazul.png" style="width: 6em" alt="web" class="Mazul">
                     </div>
                 </div>
             </div>

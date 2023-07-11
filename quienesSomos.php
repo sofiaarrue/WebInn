@@ -47,11 +47,11 @@ include("captcha.php"); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img src="imagenes/Mnaranja.webp" alt="" class="Mnaranja">
+                        <img src="imagenes/Mnaranja.png" style="width: 6em" alt="" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>Diseñamos y desarrollamos soluciones en las que creemos</h2>
                         </div>
-                        <img src="imagenes/Mazul.webp" alt="" class="Mazul">
+                        <img src="imagenes/Mazul.png" style="width: 6em" alt="" class="Mazul">
                     </div>
                 </div>
             </div>

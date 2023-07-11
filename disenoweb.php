@@ -183,11 +183,11 @@ include("captcha.php"); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img src="imagenes/Mnaranja.webp" alt="Item de diseño web" class="Mnaranja">
+                        <img src="imagenes/Mnaranja.png" style="width: 6em" alt="Item de diseño web" class="Mnaranja">
                         <div class="porQueElegirnos__h2container text-center">
                             <h2>El cambio que llevará a tu alojamiento al siguiente nivel</h2>
                         </div>
-                        <img src="imagenes/Mazul.webp" alt="Item de diseño web" class="Mazul">
+                        <img src="imagenes/Mazul.png" style="width: 6em" alt="Item de diseño web" class="Mazul">
                     </div>
                 </div>
             </div>
