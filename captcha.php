@@ -45,7 +45,7 @@ if ($_POST) {
         $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
         // Cabeceras adicionales
-        $cabeceras .= 'To: contacto@flexywebs.com' . "\r\n";
+        $cabeceras .= 'To: contacto@flexyweb.com.ar' . "\r\n";
         $cabeceras .= 'From:' . $correo . "\r\n";
 
         // Enviarlo

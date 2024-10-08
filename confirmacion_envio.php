@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="imagenes/logo_miniatura.webp">
     <meta name="description" content="Escribinos tu mensaje para un asesoramiento personalizado de la página web de tu hospedaje turístico">
-    <title>Contacto | Flexy Webs</title>
+    <title>Contacto | FlexyWeb</title>
 </head>
 
 <body id="contacto">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-12 col-md-7 my-auto text-center">
                     <p><a href="https://api.whatsapp.com/send?phone=91122627582" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-phone footer__i p-1"></i> <b>Tel:</b> +54 9 11 2262-7582</p></a>
-                    <p><a href="mailto:contacto@flexywebs.com" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email: </b>contacto@flexywebs.com</p></a>
+                    <p><a href="mailto:contacto@flexyweb.com.ar" target="_blank" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-envelope footer__i p-1"></i> <b>Email: </b>contacto@flexyweb.com.ar</p></a>
                 </div>
             </div>
         </div>
