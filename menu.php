@@ -2,6 +2,7 @@
     <div class="mx-3 nav-logo">
         <img src="imagenes/Logo1.webp" alt="logo">
     </div>
+    <!--
     <ul class="navbar-ul mb-md-0" id="navbar-ul">
         <li class="nav-item">
             <i class="fa-solid fa-house"></i>
@@ -30,5 +31,6 @@
     <div class="toggle-menu2 align-items-center" id="toggle-menu2">
         <i class="fa-solid fa-xmark"></i>
     </div>
+    -->
 </nav>
 <script src="js/menu.js"></script>
