@@ -18,7 +18,7 @@ include("captcha.php");
     <link rel="icon" href="imagenes/logo_miniatura.webp">
     <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $claves["publica"]; ?>"></script>
     <meta name="description" content="Escribinos tu mensaje para un asesoramiento personalizado de la página web de tu hospedaje turístico">
-    <title>Contacto | Flexy Webs</title>
+    <title>Contacto | FlexyWeb </title>
 </head>
 
 <body id="contacto">
